@@ -1,30 +1,33 @@
 import { motion } from "framer-motion";
 import { useLang } from "@/lib/i18n";
-import { Star } from "lucide-react";
+import { Quote } from "lucide-react";
 
 const TESTIMONIALS = [
   {
-    name: "María González",
-    role: { es: "Fundadora, BellaVista Cosmetics", pt: "Fundadora, BellaVista Cosmetics" },
+    name: "Mariana R.",
+    country: "🇲🇽",
+    role: { es: "Dueña de marca de cosmética", pt: "Dona de marca de cosméticos" },
     quote: {
-      es: "CazaFalsos nos ayudó a eliminar más de 200 publicaciones falsas en nuestro primer mes. Recuperamos el 30% de nuestras ventas perdidas.",
-      pt: "CazaFalsos nos ajudou a eliminar mais de 200 publicações falsas no nosso primeiro mês. Recuperamos 30% das nossas vendas perdidas.",
+      es: "Antes perdíamos horas revisando publicaciones manualmente. Ahora detectamos más rápido los anuncios sospechosos y tenemos mejor base para actuar.",
+      pt: "Antes perdíamos horas revisando publicações manualmente. Agora detectamos mais rápido os anúncios suspeitos e temos uma base melhor para agir.",
     },
   },
   {
-    name: "Carlos Silva",
-    role: { es: "Director de E-commerce, TechBR", pt: "Diretor de E-commerce, TechBR" },
+    name: "Rafael T.",
+    country: "🇧🇷",
+    role: { es: "Responsable de e-commerce", pt: "Responsável por e-commerce" },
     quote: {
-      es: "La detección automática es increíble. Lo que antes nos tomaba días ahora se resuelve en minutos.",
-      pt: "A detecção automática é incrível. O que antes levava dias agora se resolve em minutos.",
+      es: "CazaFalsos nos ayudó a monitorear mejor nuestra marca en Mercado Libre y organizar evidencias sin depender de procesos manuales tan lentos.",
+      pt: "CazaFalsos nos ajudou a monitorar melhor nossa marca no Mercado Livre e organizar evidências sem depender de processos manuais tão lentos.",
     },
   },
   {
-    name: "Ana Rodríguez",
-    role: { es: "Brand Manager, Deportes AR", pt: "Brand Manager, Deportes AR" },
+    name: "Luciano G.",
+    country: "🇦🇷",
+    role: { es: "Fundador de pyme", pt: "Fundador de PME" },
     quote: {
-      es: "La mejor inversión que hemos hecho para proteger nuestra marca en Mercado Libre.",
-      pt: "O melhor investimento que fizemos para proteger nossa marca no Mercado Livre.",
+      es: "Lo que más valoro es la simplicidad. No es una herramienta pensada solo para corporaciones: una pyme también la puede usar.",
+      pt: "O que mais valorizo é a simplicidade. Não é uma ferramenta pensada só para corporações: uma PME também pode usá-la.",
     },
   },
 ];
@@ -45,27 +48,27 @@ export function TestimonialsSection() {
             {tr("testimonials.tag")}
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground">{tr("testimonials.title")}</h2>
+          <p className="mt-4 text-muted-foreground leading-relaxed">{tr("testimonials.subtitle")}</p>
         </motion.div>
 
         <div className="grid sm:grid-cols-3 gap-6">
           {TESTIMONIALS.map((t, i) => (
             <motion.div
               key={i}
-              className="card-surface p-8"
+              className="card-surface p-8 flex flex-col"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
             >
-              <div className="flex gap-1 mb-4">
-                {[...Array(5)].map((_, j) => (
-                  <Star key={j} className="w-4 h-4 fill-accent text-accent" />
-                ))}
-              </div>
-              <p className="text-sm text-muted-foreground leading-relaxed mb-6">"{t.quote[lang]}"</p>
-              <div>
-                <div className="text-sm font-bold text-foreground">{t.name}</div>
-                <div className="text-xs text-muted-foreground">{t.role[lang]}</div>
+              <Quote className="w-6 h-6 text-primary/20 mb-4" />
+              <p className="text-sm text-muted-foreground leading-relaxed flex-1 mb-6">"{t.quote[lang]}"</p>
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">{t.country}</span>
+                <div>
+                  <div className="text-sm font-bold text-foreground">{t.name}</div>
+                  <div className="text-xs text-muted-foreground">{t.role[lang]}</div>
+                </div>
               </div>
             </motion.div>
           ))}
