@@ -3,7 +3,8 @@ import { Footer } from "@/components/Footer";
 import { InstallButton } from "@/components/InstallButton";
 import { useLang } from "@/lib/i18n";
 import { motion } from "framer-motion";
-import { Check, X, ThumbsUp, ThumbsDown, Calculator, Clock, DollarSign, Globe, ShieldCheck, FileText, Search, Building2 } from "lucide-react";
+import { Check, X, ThumbsUp, ThumbsDown, Calculator, ShieldCheck, Search, Building2 } from "lucide-react";
+import { useEffect } from "react";
 
 const COMPARISON_ROWS = [
   {

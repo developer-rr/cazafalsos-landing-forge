@@ -4,7 +4,7 @@ import { InstallButton } from "@/components/InstallButton";
 import { useLang } from "@/lib/i18n";
 import { motion } from "framer-motion";
 import { Check, X, CreditCard, RefreshCw, CalendarCheck, Shield, ChevronDown } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const PLANS = [
   {
