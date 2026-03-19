@@ -1,16 +1,43 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
+import { StickyCTA } from "@/components/StickyCTA";
+import { CookieConsent } from "@/components/CookieConsent";
+import { ExitIntent } from "@/components/ExitIntent";
+import { HeroSection } from "@/components/sections/HeroSection";
+import { TrustBar } from "@/components/sections/TrustBar";
+import { ProblemSection } from "@/components/sections/ProblemSection";
+import { SolutionSection } from "@/components/sections/SolutionSection";
+import { FeaturesSection } from "@/components/sections/FeaturesSection";
+import { ComparisonSection } from "@/components/sections/ComparisonSection";
+import { PricingSection } from "@/components/sections/PricingSection";
+import { TestimonialsSection } from "@/components/sections/TestimonialsSection";
+import { SecuritySection } from "@/components/sections/SecuritySection";
+import { FAQSection } from "@/components/sections/FAQSection";
+import { FinalCTASection } from "@/components/sections/FinalCTASection";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div className="min-h-screen bg-background">
+      <Header />
+      <main>
+        <HeroSection />
+        <TrustBar />
+        <ProblemSection />
+        <SolutionSection />
+        <FeaturesSection />
+        <ComparisonSection />
+        <PricingSection />
+        <TestimonialsSection />
+        <SecuritySection />
+        <FAQSection />
+        <FinalCTASection />
+      </main>
+      <Footer />
+      <StickyCTA />
+      <CookieConsent />
+      <ExitIntent />
     </div>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
