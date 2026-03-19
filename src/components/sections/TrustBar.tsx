@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { useLang } from "@/lib/i18n";
 
 const stats = [
-  { key: "trust.brands", value: "500+" },
-  { key: "trust.listings", value: "2M+" },
-  { key: "trust.fakes", value: "50K+" },
-  { key: "trust.countries", value: "18" },
+  { key: "trust.countries", value: "6" },
+  { key: "trust.hash", icon: "🔒" },
+  { key: "trust.reports", icon: "📋" },
+  { key: "trust.pymes", icon: "🏢" },
 ];
 
 export function TrustBar() {
