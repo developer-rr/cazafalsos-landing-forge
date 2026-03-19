@@ -137,14 +137,18 @@ export const t: Translations = {
   // Pricing
   "pricing.tag": { es: "Precios", pt: "Preços" },
   "pricing.title": {
-    es: "Planes para cada etapa de tu marca",
-    pt: "Planos para cada etapa da sua marca",
+    es: "Elige el plan que mejor se adapta a tu marca",
+    pt: "Escolha o plano que melhor se adapta à sua marca",
+  },
+  "pricing.subtitle": {
+    es: "Empieza gratis y escala cuando necesites más monitoreo, más marcas y más automatización.",
+    pt: "Comece grátis e escale quando precisar de mais monitoramento, mais marcas e mais automação.",
   },
   "pricing.free": { es: "Gratis", pt: "Grátis" },
-  "pricing.pro": { es: "Pro", pt: "Pro" },
-  "pricing.enterprise": { es: "Enterprise", pt: "Enterprise" },
+  "pricing.inicial": { es: "Inicial", pt: "Inicial" },
+  "pricing.pro": { es: "PRO", pt: "PRO" },
+  "pricing.experto": { es: "Experto", pt: "Experto" },
   "pricing.mo": { es: "/mes", pt: "/mês" },
-  "pricing.contact": { es: "Contactar ventas", pt: "Contatar vendas" },
   "pricing.popular": { es: "Más popular", pt: "Mais popular" },
 
   // Testimonials
