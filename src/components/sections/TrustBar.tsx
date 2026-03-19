@@ -2,10 +2,10 @@ import { motion } from "framer-motion";
 import { useLang } from "@/lib/i18n";
 
 const stats = [
-  { key: "trust.brands", value: "500+" },
-  { key: "trust.listings", value: "2M+" },
-  { key: "trust.fakes", value: "50K+" },
-  { key: "trust.countries", value: "18" },
+  { key: "trust.countries", value: "6" },
+  { key: "trust.hash", icon: "🔒" },
+  { key: "trust.reports", icon: "📋" },
+  { key: "trust.pymes", icon: "🏢" },
 ];
 
 export function TrustBar() {
@@ -24,8 +24,9 @@ export function TrustBar() {
               viewport={{ once: true }}
               transition={{ delay: i * 0.1, duration: 0.4 }}
             >
-              <div className="text-3xl sm:text-4xl font-bold text-primary tabular-nums">{s.value}</div>
-              <div className="mt-1 text-sm text-muted-foreground">{tr(s.key)}</div>
+              {(s as any).value && <div className="text-3xl sm:text-4xl font-bold text-primary tabular-nums">{(s as any).value}</div>}
+              {(s as any).icon && <div className="text-2xl mb-1">{(s as any).icon}</div>}
+              <div className="text-sm text-muted-foreground font-medium">{tr(s.key)}</div>
             </motion.div>
           ))}
         </div>

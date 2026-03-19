@@ -18,25 +18,26 @@ export const t: Translations = {
   // CTA
   "cta.install": { es: "Instalar Gratis", pt: "Instalar Grátis" },
   "cta.coming": { es: "Próximamente", pt: "Em breve" },
+  "cta.coming.note": { es: "Próximamente en Chrome Web Store", pt: "Em breve na Chrome Web Store" },
   "cta.join": { es: "Unirme a la lista", pt: "Entrar na lista" },
   "cta.send": { es: "Enviar consulta", pt: "Enviar consulta" },
 
   // Hero
   "hero.title": {
-    es: "Tu marca es real. Asegúrate de que sus ventas también lo sean.",
-    pt: "Sua marca é real. Garanta que suas vendas também sejam.",
+    es: "Detecta falsificaciones en Mercado Libre antes de que dañen tu marca.",
+    pt: "Detecte falsificações no Mercado Livre antes que prejudiquem sua marca.",
   },
   "hero.subtitle": {
-    es: "Detecta falsificaciones en Mercado Libre automáticamente con nuestra extensión de Chrome. Protege tu reputación y recupera tus ventas.",
-    pt: "Detecte falsificações no Mercado Livre automaticamente com nossa extensão do Chrome. Proteja sua reputação e recupere suas vendas.",
+    es: "CazaFalsos te ayuda a encontrar publicaciones sospechosas, recopilar pruebas y preparar denuncias de forma simple.",
+    pt: "CazaFalsos te ajuda a encontrar publicações suspeitas, coletar provas e preparar denúncias de forma simples.",
   },
   "hero.badge": { es: "Extensión de Chrome", pt: "Extensão do Chrome" },
 
   // Trust bar
-  "trust.brands": { es: "Marcas protegidas", pt: "Marcas protegidas" },
-  "trust.listings": { es: "Listados analizados", pt: "Anúncios analisados" },
-  "trust.fakes": { es: "Falsificaciones detectadas", pt: "Falsificações detectadas" },
-  "trust.countries": { es: "Países cubiertos", pt: "Países cobertos" },
+  "trust.countries": { es: "Países LATAM cubiertos", pt: "Países LATAM cobertos" },
+  "trust.hash": { es: "Pruebas con hash verificable", pt: "Provas com hash verificável" },
+  "trust.reports": { es: "Denuncias preparadas automáticamente", pt: "Denúncias preparadas automaticamente" },
+  "trust.pymes": { es: "Pensado para marcas y pymes", pt: "Pensado para marcas e PMEs" },
 
   // Problem
   "problem.tag": { es: "El problema", pt: "O problema" },
@@ -158,8 +159,8 @@ export const t: Translations = {
     pt: "Proteja sua marca hoje",
   },
   "final.desc": {
-    es: "Únete a cientos de marcas que ya protegen sus ventas en Mercado Libre.",
-    pt: "Junte-se a centenas de marcas que já protegem suas vendas no Mercado Livre.",
+    es: "Empieza a proteger tu marca en Mercado Libre hoy mismo.",
+    pt: "Comece a proteger sua marca no Mercado Livre hoje mesmo.",
   },
 
   // Sticky CTA

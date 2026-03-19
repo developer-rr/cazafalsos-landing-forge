@@ -17,21 +17,22 @@ export function CookieConsent() {
   if (!show) return null;
 
   return (
-    <div className="fixed bottom-16 left-4 right-4 sm:left-6 sm:right-auto sm:max-w-md z-50 
-      card-surface p-5 animate-fade-up">
-      <p className="text-sm text-muted-foreground leading-relaxed">
-        {tr("cookie.text")}{" "}
-        <Link to="/legal/cookies" className="text-primary hover:underline font-medium">
-          {tr("cookie.policy")}
-        </Link>.
-      </p>
-      <button
-        onClick={() => { localStorage.setItem("cookie-consent", "true"); setShow(false); }}
-        className="mt-3 px-4 py-2 text-sm font-semibold bg-primary text-primary-foreground rounded-inner
-          transition-all hover:scale-[1.02] active:scale-95"
-      >
-        {tr("cookie.accept")}
-      </button>
+    <div className="fixed bottom-0 left-0 right-0 z-50 bg-card/95 backdrop-blur-sm border-t border-border px-4 py-2.5 animate-fade-up">
+      <div className="max-w-screen-xl mx-auto flex items-center justify-between gap-4 flex-wrap">
+        <p className="text-xs text-muted-foreground">
+          {tr("cookie.text")}{" "}
+          <Link to="/legal/cookies" className="text-primary hover:underline font-medium">
+            {tr("cookie.policy")}
+          </Link>.
+        </p>
+        <button
+          onClick={() => { localStorage.setItem("cookie-consent", "true"); setShow(false); }}
+          className="shrink-0 px-3 py-1.5 text-xs font-semibold bg-primary text-primary-foreground rounded-inner
+            transition-all hover:scale-[1.02] active:scale-95"
+        >
+          {tr("cookie.accept")}
+        </button>
+      </div>
     </div>
   );
 }
