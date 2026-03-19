@@ -67,35 +67,39 @@ export const t: Translations = {
     es: "Todo lo que necesitas para proteger tu marca",
     pt: "Tudo que você precisa para proteger sua marca",
   },
-  "features.auto.title": { es: "Detección Automática", pt: "Detecção Automática" },
-  "features.auto.desc": {
-    es: "Identificamos patrones de precios y reputación sospechosa en segundos.",
-    pt: "Identificamos padrões de preços e reputação suspeita em segundos.",
+  "features.subtitle": {
+    es: "Detecta falsificaciones, recopila pruebas y prepara denuncias en una sola herramienta.",
+    pt: "Detecte falsificações, colete provas e prepare denúncias em uma única ferramenta.",
   },
-  "features.alerts.title": { es: "Alertas en Tiempo Real", pt: "Alertas em Tempo Real" },
-  "features.alerts.desc": {
-    es: "Recibe notificaciones instantáneas cuando se detecta una falsificación.",
-    pt: "Receba notificações instantâneas quando uma falsificação é detectada.",
+  "features.search.title": { es: "Búsqueda inteligente", pt: "Busca inteligente" },
+  "features.search.desc": {
+    es: "Detecta coincidencias exactas, variaciones engañosas y jerga local de falsificadores.",
+    pt: "Detecta correspondências exatas, variações enganosas e gírias locais de falsificadores.",
   },
-  "features.reports.title": { es: "Reportes Detallados", pt: "Relatórios Detalhados" },
-  "features.reports.desc": {
-    es: "Genera informes completos para presentar ante Mercado Libre.",
-    pt: "Gere relatórios completos para apresentar ao Mercado Livre.",
+  "features.coverage.title": { es: "Cobertura en 6 países", pt: "Cobertura em 6 países" },
+  "features.coverage.desc": {
+    es: "Funciona en Mercado Libre México, Brasil, Argentina, Chile, Colombia y Perú.",
+    pt: "Funciona no Mercado Livre México, Brasil, Argentina, Chile, Colômbia e Peru.",
   },
-  "features.monitor.title": { es: "Monitoreo Continuo", pt: "Monitoramento Contínuo" },
-  "features.monitor.desc": {
-    es: "Vigilancia 24/7 de nuevas publicaciones sospechosas.",
-    pt: "Vigilância 24/7 de novas publicações suspeitas.",
+  "features.evidence.title": { es: "Pruebas sólidas", pt: "Provas sólidas" },
+  "features.evidence.desc": {
+    es: "Capturas, timestamps y hash SHA-256 para documentar cada caso.",
+    pt: "Capturas, timestamps e hash SHA-256 para documentar cada caso.",
   },
-  "features.ai.title": { es: "IA Avanzada", pt: "IA Avançada" },
-  "features.ai.desc": {
-    es: "Algoritmos de machine learning que mejoran con cada detección.",
-    pt: "Algoritmos de machine learning que melhoram a cada detecção.",
+  "features.complaints.title": { es: "Denuncias preparadas", pt: "Denúncias preparadas" },
+  "features.complaints.desc": {
+    es: "Genera denuncias listas para Brand Protection Program / PPPI.",
+    pt: "Gera denúncias prontas para Brand Protection Program / PPPI.",
   },
-  "features.legal.title": { es: "Soporte Legal", pt: "Suporte Legal" },
-  "features.legal.desc": {
-    es: "Guías y plantillas para tomar acción legal contra falsificadores.",
-    pt: "Guias e modelos para tomar ação legal contra falsificadores.",
+  "features.pricing.title": { es: "Anomalías de precio", pt: "Anomalias de preço" },
+  "features.pricing.desc": {
+    es: "Detecta publicaciones sospechosamente baratas bajo tu marca.",
+    pt: "Detecta publicações suspeitamente baratas sob sua marca.",
+  },
+  "features.images.title": { es: "Análisis de imágenes", pt: "Análise de imagens" },
+  "features.images.desc": {
+    es: "Encuentra productos visualmente similares incluso si modificaron la foto.",
+    pt: "Encontra produtos visualmente similares mesmo se modificaram a foto.",
   },
 
   // Comparison
