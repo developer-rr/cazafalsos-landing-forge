@@ -106,6 +106,12 @@ const PricingPage = () => {
   const { tr, lang } = useLang();
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
+  useEffect(() => {
+    document.title = "Precios CazaFalsos — Planes desde $0/mes | Protección de Marca";
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute("content", "Plan Gratis, Inicial $49/mes, PRO $99/mes, Experto $199/mes. Protege tu marca en Mercado Libre. Sin tarjeta para empezar. Cancela cuando quieras.");
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />

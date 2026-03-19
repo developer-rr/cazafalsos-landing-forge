@@ -142,6 +142,12 @@ const DEEP_DIVE = [
 const ComparisonPage = () => {
   const { tr, lang } = useLang();
 
+  useEffect(() => {
+    document.title = "CazaFalsos vs Monitoreo Manual vs Red Points — Comparativa 2026";
+    const meta = document.querySelector('meta[name="description"]');
+    if (meta) meta.setAttribute("content", "Compara CazaFalsos con búsqueda manual y soluciones enterprise. Descubre por qué somos la mejor opción para marcas en Mercado Libre.");
+  }, []);
+
   return (
     <div className="min-h-screen bg-background">
       <Header />
