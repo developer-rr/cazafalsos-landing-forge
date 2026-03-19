@@ -3,6 +3,13 @@ import { useLang } from "@/lib/i18n";
 import { InstallButton } from "../InstallButton";
 import { useState } from "react";
 import { toast } from "sonner";
+import { CreditCard, Clock, XCircle } from "lucide-react";
+
+const PERKS = [
+  { icon: CreditCard, key: "final.perk1" },
+  { icon: Clock, key: "final.perk2" },
+  { icon: XCircle, key: "final.perk3" },
+];
 
 export function FinalCTASection() {
   const { tr } = useLang();
@@ -26,10 +33,22 @@ export function FinalCTASection() {
           <h2 className="text-3xl sm:text-4xl font-bold text-primary-foreground mb-4">
             {tr("final.title")}
           </h2>
-          <p className="text-primary-foreground/80 mb-8 max-w-lg mx-auto">
+          <p className="text-primary-foreground/80 mb-8 max-w-xl mx-auto leading-relaxed">
             {tr("final.desc")}
           </p>
+
           <InstallButton size="lg" className="bg-accent hover:shadow-[0_0_20px_rgba(255,109,0,0.4)]" />
+
+          <div className="flex flex-wrap items-center justify-center gap-6 mt-6">
+            {PERKS.map((p) => (
+              <div key={p.key} className="flex items-center gap-1.5 text-primary-foreground/70">
+                <p.icon className="w-4 h-4" />
+                <span className="text-xs font-medium">{tr(p.key)}</span>
+              </div>
+            ))}
+          </div>
+
+          <p className="mt-4 text-xs text-primary-foreground/50 italic">{tr("cta.coming.note")}</p>
 
           {/* Newsletter */}
           <div className="mt-12 max-w-md mx-auto">
