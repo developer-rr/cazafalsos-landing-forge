@@ -33,10 +33,10 @@ export const t: Translations = {
   "hero.badge": { es: "Extensión de Chrome", pt: "Extensão do Chrome" },
 
   // Trust bar
-  "trust.brands": { es: "Marcas protegidas", pt: "Marcas protegidas" },
-  "trust.listings": { es: "Listados analizados", pt: "Anúncios analisados" },
-  "trust.fakes": { es: "Falsificaciones detectadas", pt: "Falsificações detectadas" },
-  "trust.countries": { es: "Países cubiertos", pt: "Países cobertos" },
+  "trust.countries": { es: "Países LATAM cubiertos", pt: "Países LATAM cobertos" },
+  "trust.hash": { es: "Pruebas con hash verificable", pt: "Provas com hash verificável" },
+  "trust.reports": { es: "Denuncias preparadas automáticamente", pt: "Denúncias preparadas automaticamente" },
+  "trust.pymes": { es: "Pensado para marcas y pymes", pt: "Pensado para marcas e PMEs" },
 
   // Problem
   "problem.tag": { es: "El problema", pt: "O problema" },
