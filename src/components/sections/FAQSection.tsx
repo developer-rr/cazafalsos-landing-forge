@@ -5,26 +5,25 @@ import { ChevronDown } from "lucide-react";
 
 const FAQ_DATA = [
   {
-    q: { es: "¿Qué es CazaFalsos?", pt: "O que é CazaFalsos?" },
-    a: { es: "CazaFalsos es una extensión de Chrome que detecta automáticamente publicaciones de productos falsificados en Mercado Libre, ayudándote a proteger tu marca y recuperar ventas.", pt: "CazaFalsos é uma extensão do Chrome que detecta automaticamente publicações de produtos falsificados no Mercado Livre, ajudando você a proteger sua marca e recuperar vendas." },
+    q: { es: "¿Necesito una marca registrada?", pt: "Preciso de uma marca registrada?" },
+    a: { es: "No siempre. Pero contar con una marca registrada puede facilitar ciertas acciones de protección y denuncia.", pt: "Nem sempre. Mas ter uma marca registrada pode facilitar certas ações de proteção e denúncia." },
   },
   {
-    q: { es: "¿Es gratis?", pt: "É grátis?" },
-    a: { es: "Sí, ofrecemos un plan gratuito con 5 búsquedas diarias. Para necesidades más avanzadas, consulta nuestros planes Pro y Enterprise.", pt: "Sim, oferecemos um plano gratuito com 5 buscas diárias. Para necessidades mais avançadas, consulte nossos planos Pro e Enterprise." },
+    q: { es: "¿Es seguro instalar la extensión?", pt: "É seguro instalar a extensão?" },
+    a: { es: "CazaFalsos está diseñado para funcionar con un enfoque cuidadoso de privacidad y acceso, evitando permisos innecesarios siempre que sea posible.", pt: "CazaFalsos é projetado para funcionar com uma abordagem cuidadosa de privacidade e acesso, evitando permissões desnecessárias sempre que possível." },
   },
   {
-    q: { es: "¿Es seguro usar CazaFalsos?", pt: "É seguro usar o CazaFalsos?" },
-    a: { es: "Absolutamente. No accedemos a tus credenciales de Mercado Libre y todos los datos están cifrados end-to-end. Cumplimos con LGPD.", pt: "Absolutamente. Não acessamos suas credenciais do Mercado Livre e todos os dados são criptografados end-to-end. Cumprimos a LGPD." },
+    q: { es: "¿Funciona en todos los países de Mercado Libre?", pt: "Funciona em todos os países do Mercado Livre?" },
+    a: { es: "Está pensado para operar en México, Brasil, Argentina, Chile, Colombia y Perú.", pt: "É pensado para operar no México, Brasil, Argentina, Chile, Colômbia e Peru." },
   },
   {
-    q: { es: "¿En qué países funciona?", pt: "Em quais países funciona?" },
-    a: { es: "CazaFalsos funciona en todos los países donde opera Mercado Libre: Argentina, Brasil, México, Colombia, Chile, Uruguay y más.", pt: "CazaFalsos funciona em todos os países onde o Mercado Livre opera: Argentina, Brasil, México, Colômbia, Chile, Uruguai e mais." },
+    q: { es: "¿Puedo cancelar en cualquier momento?", pt: "Posso cancelar a qualquer momento?" },
+    a: { es: "Sí. La idea es ofrecer una herramienta flexible, sin compromisos rígidos para pequeñas marcas y negocios.", pt: "Sim. A ideia é oferecer uma ferramenta flexível, sem compromissos rígidos para pequenas marcas e negócios." },
   },
 ];
 
 export function FAQSection() {
-  const { lang } = useLang();
-  const { tr } = useLang();
+  const { lang, tr } = useLang();
   const [openIdx, setOpenIdx] = useState<number | null>(null);
 
   return (
@@ -40,6 +39,7 @@ export function FAQSection() {
             {tr("faq.tag")}
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground">{tr("faq.title")}</h2>
+          <p className="mt-4 text-muted-foreground leading-relaxed">{tr("faq.subtitle")}</p>
         </motion.div>
 
         <div className="space-y-3">
@@ -57,13 +57,15 @@ export function FAQSection() {
                 className="w-full flex items-center justify-between p-5 text-left"
               >
                 <span className="text-sm font-bold text-foreground">{faq.q[lang]}</span>
-                <ChevronDown className={`w-5 h-5 text-muted-foreground transition-transform duration-200 ${openIdx === i ? "rotate-180" : ""}`} />
+                <ChevronDown className={`w-5 h-5 text-muted-foreground transition-transform duration-200 shrink-0 ${openIdx === i ? "rotate-180" : ""}`} />
               </button>
-              {openIdx === i && (
-                <div className="px-5 pb-5 text-sm text-muted-foreground leading-relaxed">
-                  {faq.a[lang]}
+              <div className={`grid transition-all duration-200 ${openIdx === i ? "grid-rows-[1fr]" : "grid-rows-[0fr]"}`}>
+                <div className="overflow-hidden">
+                  <div className="px-5 pb-5 text-sm text-muted-foreground leading-relaxed">
+                    {faq.a[lang]}
+                  </div>
                 </div>
-              )}
+              </div>
             </motion.div>
           ))}
         </div>
