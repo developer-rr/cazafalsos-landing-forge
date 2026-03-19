@@ -23,12 +23,12 @@ export const t: Translations = {
 
   // Hero
   "hero.title": {
-    es: "Tu marca es real. Asegúrate de que sus ventas también lo sean.",
-    pt: "Sua marca é real. Garanta que suas vendas também sejam.",
+    es: "Detecta falsificaciones en Mercado Libre antes de que dañen tu marca.",
+    pt: "Detecte falsificações no Mercado Livre antes que prejudiquem sua marca.",
   },
   "hero.subtitle": {
-    es: "Detecta falsificaciones en Mercado Libre automáticamente con nuestra extensión de Chrome. Protege tu reputación y recupera tus ventas.",
-    pt: "Detecte falsificações no Mercado Livre automaticamente com nossa extensão do Chrome. Proteja sua reputação e recupere suas vendas.",
+    es: "CazaFalsos te ayuda a encontrar publicaciones sospechosas, recopilar pruebas y preparar denuncias de forma simple.",
+    pt: "CazaFalsos te ajuda a encontrar publicações suspeitas, coletar provas e preparar denúncias de forma simples.",
   },
   "hero.badge": { es: "Extensión de Chrome", pt: "Extensão do Chrome" },
 
