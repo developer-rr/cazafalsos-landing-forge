@@ -174,10 +174,14 @@ export const t: Translations = {
   },
 
   // FAQ
-  "faq.tag": { es: "Preguntas Frecuentes", pt: "Perguntas Frequentes" },
+  "faq.tag": { es: "FAQ", pt: "FAQ" },
   "faq.title": {
-    es: "¿Tienes dudas? Tenemos respuestas",
-    pt: "Tem dúvidas? Temos respostas",
+    es: "Preguntas frecuentes",
+    pt: "Perguntas frequentes",
+  },
+  "faq.subtitle": {
+    es: "Resolvemos las dudas más comunes antes de que empieces.",
+    pt: "Resolvemos as dúvidas mais comuns antes de você começar.",
   },
 
   // Final CTA
