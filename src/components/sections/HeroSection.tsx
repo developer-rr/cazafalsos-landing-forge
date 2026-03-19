@@ -35,6 +35,7 @@ export function HeroSection() {
 
             <div className="flex flex-wrap items-center gap-4 pt-2">
               <InstallButton size="lg" />
+              {<p className="text-xs text-muted-foreground italic">{tr("cta.coming.note")}</p>}
             </div>
           </motion.div>
 
