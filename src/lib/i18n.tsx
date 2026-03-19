@@ -154,8 +154,12 @@ export const t: Translations = {
   // Testimonials
   "testimonials.tag": { es: "Testimonios", pt: "Depoimentos" },
   "testimonials.title": {
-    es: "Lo que dicen nuestros usuarios",
-    pt: "O que dizem nossos usuários",
+    es: "Marcas que ya protegen mejor su negocio",
+    pt: "Marcas que já protegem melhor seu negócio",
+  },
+  "testimonials.subtitle": {
+    es: "CazaFalsos está pensado para marcas y pymes que venden en Mercado Libre y necesitan actuar más rápido frente a publicaciones sospechosas.",
+    pt: "CazaFalsos é pensado para marcas e PMEs que vendem no Mercado Livre e precisam agir mais rápido frente a publicações suspeitas.",
   },
 
   // Security
