@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import { useLang } from "@/lib/i18n";
-import { Shield, Lock, Server } from "lucide-react";
+import { Monitor, ShieldOff, FileCheck } from "lucide-react";
 
 export function SecuritySection() {
   const { tr, lang } = useLang();
 
   const items = [
-    { icon: Shield, title: { es: "Cifrado end-to-end", pt: "Criptografia end-to-end" }, desc: { es: "Tus datos viajan y se almacenan cifrados.", pt: "Seus dados trafegam e são armazenados criptografados." } },
-    { icon: Lock, title: { es: "Sin acceso a contraseñas", pt: "Sem acesso a senhas" }, desc: { es: "Nunca almacenamos credenciales de Mercado Libre.", pt: "Nunca armazenamos credenciais do Mercado Livre." } },
-    { icon: Server, title: { es: "LGPD Compliant", pt: "LGPD Compliant" }, desc: { es: "Cumplimos todas las regulaciones de privacidad.", pt: "Cumprimos todas as regulamentações de privacidade." } },
+    { icon: Monitor, title: { es: "Procesamiento 100% local", pt: "Processamento 100% local" }, desc: { es: "Gran parte del procesamiento ocurre localmente en el navegador, reduciendo dependencias innecesarias y dando más control al usuario.", pt: "Grande parte do processamento ocorre localmente no navegador, reduzindo dependências desnecessárias e dando mais controle ao usuário." } },
+    { icon: ShieldOff, title: { es: "Sin acceso innecesario a tu cuenta", pt: "Sem acesso desnecessário à sua conta" }, desc: { es: "La extensión está pensada para funcionar sin pedir acceso sensible que no sea necesario para su propósito.", pt: "A extensão é pensada para funcionar sem pedir acesso sensível que não seja necessário para seu propósito." } },
+    { icon: FileCheck, title: { es: "Privacidad y cumplimiento", pt: "Privacidade e conformidade" }, desc: { es: "Arquitectura preparada para prácticas de privacidad claras y cumplimiento aplicable, incluyendo enfoque compatible con LGPD.", pt: "Arquitetura preparada para práticas de privacidade claras e conformidade aplicável, incluindo abordagem compatível com LGPD." } },
   ];
 
   return (
