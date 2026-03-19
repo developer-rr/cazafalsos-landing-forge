@@ -1,14 +1,14 @@
 import { motion } from "framer-motion";
 import { useLang } from "@/lib/i18n";
-import { Eye, Bell, FileText, Clock, Brain, Scale } from "lucide-react";
+import { Search, Globe, ShieldCheck, FileText, TrendingDown, ScanEye } from "lucide-react";
 
 const FEATURES = [
-  { icon: Eye, titleKey: "features.auto.title", descKey: "features.auto.desc" },
-  { icon: Bell, titleKey: "features.alerts.title", descKey: "features.alerts.desc" },
-  { icon: FileText, titleKey: "features.reports.title", descKey: "features.reports.desc" },
-  { icon: Clock, titleKey: "features.monitor.title", descKey: "features.monitor.desc" },
-  { icon: Brain, titleKey: "features.ai.title", descKey: "features.ai.desc" },
-  { icon: Scale, titleKey: "features.legal.title", descKey: "features.legal.desc" },
+  { icon: Search, titleKey: "features.search.title", descKey: "features.search.desc" },
+  { icon: Globe, titleKey: "features.coverage.title", descKey: "features.coverage.desc" },
+  { icon: ShieldCheck, titleKey: "features.evidence.title", descKey: "features.evidence.desc" },
+  { icon: FileText, titleKey: "features.complaints.title", descKey: "features.complaints.desc" },
+  { icon: TrendingDown, titleKey: "features.pricing.title", descKey: "features.pricing.desc" },
+  { icon: ScanEye, titleKey: "features.images.title", descKey: "features.images.desc" },
 ];
 
 export function FeaturesSection() {
