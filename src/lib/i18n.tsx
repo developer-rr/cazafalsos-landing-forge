@@ -186,13 +186,16 @@ export const t: Translations = {
 
   // Final CTA
   "final.title": {
-    es: "Protege tu marca hoy",
-    pt: "Proteja sua marca hoje",
+    es: "Empieza a proteger tu marca con más claridad y menos esfuerzo",
+    pt: "Comece a proteger sua marca com mais clareza e menos esforço",
   },
   "final.desc": {
-    es: "Empieza a proteger tu marca en Mercado Libre hoy mismo.",
-    pt: "Comece a proteger sua marca no Mercado Livre hoje mesmo.",
+    es: "Detecta publicaciones sospechosas, recopila pruebas y prepárate para actuar desde un solo lugar.",
+    pt: "Detecte publicações suspeitas, colete provas e prepare-se para agir a partir de um só lugar.",
   },
+  "final.perk1": { es: "Sin tarjeta", pt: "Sem cartão" },
+  "final.perk2": { es: "Configura en 2 minutos", pt: "Configure em 2 minutos" },
+  "final.perk3": { es: "Cancela cuando quieras", pt: "Cancele quando quiser" },
 
   // Sticky CTA
   "sticky.text": { es: "Protege tu marca hoy", pt: "Proteja sua marca hoje" },
