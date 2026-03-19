@@ -165,8 +165,12 @@ export const t: Translations = {
   // Security
   "security.tag": { es: "Seguridad", pt: "Segurança" },
   "security.title": {
-    es: "Tu información está segura con nosotros",
-    pt: "Sua informação está segura conosco",
+    es: "Seguridad y confianza desde el primer uso",
+    pt: "Segurança e confiança desde o primeiro uso",
+  },
+  "security.subtitle": {
+    es: "CazaFalsos está diseñado para ayudarte a proteger tu marca sin complicaciones innecesarias y con un enfoque claro en privacidad y control.",
+    pt: "CazaFalsos é projetado para ajudá-lo a proteger sua marca sem complicações desnecessárias e com foco claro em privacidade e controle.",
   },
 
   // FAQ

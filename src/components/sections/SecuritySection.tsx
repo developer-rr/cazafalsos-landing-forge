@@ -24,6 +24,7 @@ export function SecuritySection() {
             {tr("security.tag")}
           </span>
           <h2 className="text-3xl sm:text-4xl font-bold text-foreground">{tr("security.title")}</h2>
+          <p className="mt-4 text-muted-foreground leading-relaxed">{tr("security.subtitle")}</p>
         </motion.div>
 
         <div className="grid sm:grid-cols-3 gap-6">
