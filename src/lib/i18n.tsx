@@ -158,8 +158,8 @@ export const t: Translations = {
     pt: "Proteja sua marca hoje",
   },
   "final.desc": {
-    es: "Únete a cientos de marcas que ya protegen sus ventas en Mercado Libre.",
-    pt: "Junte-se a centenas de marcas que já protegem suas vendas no Mercado Livre.",
+    es: "Empieza a proteger tu marca en Mercado Libre hoy mismo.",
+    pt: "Comece a proteger sua marca no Mercado Livre hoje mesmo.",
   },
 
   // Sticky CTA
