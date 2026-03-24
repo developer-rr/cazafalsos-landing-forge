@@ -29,6 +29,7 @@ const Index = () => {
           ? "Detecta publicaciones sospechosas en Mercado Libre, recopila pruebas con hash SHA-256 y prepara denuncias. 6 países LATAM. Empieza gratis."
           : "Detecte publicações suspeitas no Mercado Livre, colete provas com hash SHA-256 e prepare denúncias. 6 países LATAM. Comece grátis."}
       />
+      <Header />
       <main>
         <HeroSection />
         <TrustBar />
