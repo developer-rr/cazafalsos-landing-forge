@@ -768,6 +768,98 @@ Podemos atualizar esta Política de Cookies periodicamente. As alterações ser�
 
 © 2026 VENTOS ARQUEÁVEIS UNIPESSOAL LDA. Todos os direitos reservados. Livro de Reclamações Eletrónico: www.livroreclamacoes.pt`;
 
+const REFUND_ES = `## 1. Política General de Reembolsos
+
+VENTOS ARQUEÁVEIS UNIPESSOAL LDA se compromete con la satisfacción del cliente. Esta Política de Reembolsos se aplica a todas las suscripciones de pago de CazaFalsos — Protección de Marca procesadas a través de ExtensionPay y Stripe.
+
+## 2. Período de Desistimiento de 14 Días
+
+De conformidad con la Directiva de Derechos del Consumidor de la UE 2011/83/UE y las leyes de protección al consumidor aplicables en América Latina, usted tiene derecho a desistir de una compra dentro de los catorce (14) días calendario posteriores a la fecha de suscripción inicial, sin necesidad de proporcionar motivo alguno.
+
+Sin embargo, al hacer clic en "Suscribirse" o "Comprar", usted consiente expresamente al acceso inmediato al contenido digital y reconoce que, con ello, renuncia a su derecho de desistimiento bajo las leyes de protección al consumidor de la UE una vez que acceda a las funciones premium. Esta renuncia se presenta claramente en el punto de compra y requiere su acción afirmativa.
+
+Para los usuarios en Brasil, el Código de Defesa do Consumidor (CDC) Art. 49 otorga un derecho de desistimiento de 7 días para compras a distancia. Para los usuarios en México, la Ley Federal de Protección al Consumidor establece un derecho de desistimiento de 5 días hábiles para ventas a distancia. Para los usuarios en Argentina, los derechos bajo la Ley 24.240 de Defensa del Consumidor se aplican en su totalidad, incluyendo el período de desistimiento de 10 días para compras a distancia según el Art. 34.
+
+## 3. Condiciones para el Reembolso
+
+Después del período de desistimiento o renuncia, se podrán otorgar reembolsos en los siguientes casos:
+
+- **Problemas Técnicos:** La Extensión tiene un defecto técnico verificable que impide la funcionalidad principal, y no podemos resolverlo dentro de los 7 días hábiles posteriores a su reporte.
+- **Doble Facturación:** Se le cobró dos veces por el mismo período de suscripción.
+- **Indisponibilidad del Servicio:** La Extensión estuvo materialmente indisponible durante más de 72 horas consecutivas durante su período de facturación.
+
+## 4. Exclusiones de Reembolso
+
+Los reembolsos NO están disponibles en las siguientes circunstancias:
+
+- Simplemente cambió de opinión después del período de desistimiento (o después de la renuncia).
+- Su suscripción fue terminada debido a una violación de los Términos de Servicio o la Política de Uso Aceptable.
+- No canceló antes de la fecha de renovación automática.
+- El problema es causado por sus claves API, la configuración de su navegador, cambios en la plataforma de Mercado Libre u otros factores fuera de nuestro control.
+- Está solicitando un reembolso por un período durante el cual utilizó activamente el Servicio.
+
+## 5. Reembolsos Parciales (Proporcionales)
+
+Si cancela una suscripción a mitad del ciclo, conserva el acceso a las funciones premium hasta el final del período de facturación actual. No se emiten reembolsos parciales por porciones no utilizadas de un ciclo de facturación, excepto en casos de problemas técnicos como se describe en la Sección 3.
+
+## 6. Proceso de Reembolso
+
+Para solicitar un reembolso, envíe un correo electrónico a support@cazafalsos.com con: (a) su dirección de correo electrónico asociada a la suscripción; (b) la fecha del cargo; (c) el motivo de la solicitud de reembolso; (d) cualquier captura de pantalla o registro de errores relevante. Responderemos dentro de 7 días hábiles. De conformidad con la ley portuguesa, el libro de reclamaciones electrónico (Livro de Reclamações Eletrónico) está disponible en www.livroreclamacoes.pt. Para los usuarios mexicanos, las disputas de reembolso también pueden dirigirse a PROFECO (www.gob.mx/profeco). Los reembolsos aprobados se procesan a través de Stripe y generalmente aparecen en su estado de cuenta dentro de 5 a 10 días hábiles.
+
+## 7. Prueba Gratuita
+
+CazaFalsos ofrece una prueba gratuita de 14 días con funciones del nivel Pro. No se requiere pago durante la prueba. Si no se suscribe antes de que expire la prueba, su acceso vuelve al nivel Gratuito. No se aplican reembolsos a los períodos de prueba.
+
+---
+
+© 2026 VENTOS ARQUEÁVEIS UNIPESSOAL LDA. Todos los derechos reservados.`;
+
+const REFUND_PT = `## 1. Política Geral de Reembolsos
+
+A VENTOS ARQUEÁVEIS UNIPESSOAL LDA está comprometida com a satisfação do cliente. Esta Política de Reembolsos se aplica a todas as assinaturas pagas do CazaFalsos — Protección de Marca processadas através do ExtensionPay e Stripe.
+
+## 2. Período de Desistência de 14 Dias
+
+De acordo com a Diretiva de Direitos do Consumidor da UE 2011/83/UE e as leis de proteção ao consumidor aplicáveis na América Latina, você tem o direito de desistir de uma compra dentro de catorze (14) dias corridos a partir da data inicial de assinatura, sem necessidade de fornecer qualquer motivo.
+
+No entanto, ao clicar em "Assinar" ou "Comprar", você consente expressamente ao acesso imediato ao conteúdo digital e reconhece que, com isso, renuncia ao seu direito de desistência sob as leis de proteção ao consumidor da UE uma vez que acesse os recursos premium. Esta renúncia é apresentada claramente no ponto de compra e requer sua ação afirmativa.
+
+Para os usuários no Brasil, o Código de Defesa do Consumidor (CDC) Art. 49 concede um direito de desistência de 7 dias para compras a distância. Para os usuários no México, a Ley Federal de Protección al Consumidor estabelece um direito de desistência de 5 dias úteis para vendas a distância. Para os usuários na Argentina, os direitos sob a Ley 24.240 de Defensa del Consumidor se aplicam integralmente, incluindo o período de desistência de 10 dias para compras a distância conforme o Art. 34.
+
+## 3. Condições para Reembolso
+
+Após o período de desistência ou renúncia, reembolsos podem ser concedidos nos seguintes casos:
+
+- **Problemas Técnicos:** A Extensão possui um defeito técnico verificável que impede a funcionalidade principal, e não conseguimos resolvê-lo dentro de 7 dias úteis após seu relato.
+- **Cobrança Dupla:** Você foi cobrado duas vezes pelo mesmo período de assinatura.
+- **Indisponibilidade do Serviço:** A Extensão esteve materialmente indisponível por mais de 72 horas consecutivas durante seu período de faturamento.
+
+## 4. Exclusões de Reembolso
+
+Reembolsos NÃO estão disponíveis nas seguintes circunstâncias:
+
+- Você simplesmente mudou de ideia após o período de desistência (ou após a renúncia).
+- Sua assinatura foi encerrada devido a violação dos Termos de Serviço ou da Política de Uso Aceitável.
+- Você não cancelou antes da data de renovação automática.
+- O problema é causado por suas chaves de API, configuração do seu navegador, mudanças na plataforma do Mercado Libre ou outros fatores fora do nosso controle.
+- Você está solicitando reembolso por um período durante o qual utilizou ativamente o Serviço.
+
+## 5. Reembolsos Parciais (Proporcionais)
+
+Se você cancelar uma assinatura no meio do ciclo, mantém o acesso aos recursos premium até o final do período de faturamento atual. Não são emitidos reembolsos parciais por porções não utilizadas de um ciclo de faturamento, exceto em casos de problemas técnicos conforme descrito na Seção 3.
+
+## 6. Processo de Reembolso
+
+Para solicitar um reembolso, envie um e-mail para support@cazafalsos.com com: (a) seu endereço de e-mail associado à assinatura; (b) a data da cobrança; (c) o motivo da solicitação de reembolso; (d) quaisquer capturas de tela ou registros de erros relevantes. Responderemos dentro de 7 dias úteis. Em conformidade com a lei portuguesa, o livro de reclamações eletrônico (Livro de Reclamações Eletrónico) está disponível em www.livroreclamacoes.pt. Para os usuários mexicanos, disputas de reembolso também podem ser direcionadas à PROFECO (www.gob.mx/profeco). Os reembolsos aprovados são processados através do Stripe e geralmente aparecem em seu extrato dentro de 5 a 10 dias úteis.
+
+## 7. Teste Gratuito
+
+O CazaFalsos oferece um teste gratuito de 14 dias com recursos do nível Pro. Nenhum pagamento é necessário durante o teste. Se você não assinar antes do término do teste, seu acesso retorna ao nível Gratuito. Reembolsos não se aplicam a períodos de teste.
+
+---
+
+© 2026 VENTOS ARQUEÁVEIS UNIPESSOAL LDA. Todos os direitos reservados.`;
+
 const LEGAL_DOCS: Record<string, LegalDoc> = {
   privacidad: {
     title: { es: "Política de Privacidad", pt: "Política de Privacidade" },
