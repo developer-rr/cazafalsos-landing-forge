@@ -816,9 +816,12 @@ const LEGAL_DOCS: Record<string, LegalDoc> = {
   reembolsos: {
     title: { es: "Política de Reembolsos", pt: "Política de Reembolsos" },
     updated: { es: "Última actualización: 10 de marzo de 2026", pt: "Última atualização: 10 de março de 2026" },
-    body: { es: "Próximamente.", pt: "Em breve." },
+    body: { es: REFUND_ES, pt: REFUND_PT },
     seoTitle: { es: "Política de Reembolsos — CazaFalsos", pt: "Política de Reembolsos — CazaFalsos" },
-    seoDesc: { es: "Política de reembolsos de CazaFalsos.", pt: "Política de reembolsos do CazaFalsos." },
+    seoDesc: {
+      es: "Política de reembolsos de CazaFalsos. Período de desistimiento de 14 días, condiciones y proceso de reembolso.",
+      pt: "Política de reembolsos do CazaFalsos. Período de desistência de 14 dias, condições e processo de reembolso.",
+    },
   },
 };
 
