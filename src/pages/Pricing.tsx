@@ -5,6 +5,7 @@ import { useLang } from "@/lib/i18n";
 import { motion } from "framer-motion";
 import { Check, X, CreditCard, RefreshCw, CalendarCheck, Shield, ChevronDown } from "lucide-react";
 import { useState, useEffect } from "react";
+import { SEOHead } from "@/components/SEOHead";
 
 const PLANS = [
   {
@@ -106,11 +107,12 @@ const PricingPage = () => {
   const { tr, lang } = useLang();
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
-  useEffect(() => {
-    document.title = "Precios CazaFalsos — Planes desde $0/mes | Protección de Marca";
-    const meta = document.querySelector('meta[name="description"]');
-    if (meta) meta.setAttribute("content", "Plan Gratis, Inicial $49/mes, PRO $99/mes, Experto $199/mes. Protege tu marca en Mercado Libre. Sin tarjeta para empezar. Cancela cuando quieras.");
-  }, []);
+  const seoTitle = lang === "es"
+    ? "Precios CazaFalsos — Planes desde $0/mes | Protección de Marca"
+    : "Preços CazaFalsos — Planos desde $0/mês | Proteção de Marca";
+  const seoDesc = lang === "es"
+    ? "Plan Gratis, Inicial $49/mes, PRO $99/mes, Experto $199/mes. Protege tu marca en Mercado Libre. Sin tarjeta para empezar. Cancela cuando quieras."
+    : "Plano Grátis, Inicial $49/mês, PRO $99/mês, Experto $199/mês. Proteja sua marca no Mercado Livre. Sem cartão para começar.";
 
   return (
     <div className="min-h-screen bg-background">
