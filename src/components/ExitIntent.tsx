@@ -54,9 +54,12 @@ export function ExitIntent() {
             className="px-5 py-3 text-sm font-semibold bg-accent text-accent-foreground rounded-inner
               transition-all hover:scale-[1.02] active:scale-95"
           >
-            {tr("cta.join")}
+            {tr("exit.cta")}
           </button>
         </form>
+        <p className="mt-3 text-xs text-muted-foreground text-center font-medium">
+          {tr("exit.code")}
+        </p>
         <button
           onClick={() => setShow(false)}
           className="mt-4 text-xs text-muted-foreground hover:text-foreground transition-colors"
