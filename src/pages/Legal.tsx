@@ -436,6 +436,262 @@ Você tem o direito de apresentar uma reclamação à autoridade de supervisão 
 © 2026 VENTOS ARQUEÁVEIS UNIPESSOAL LDA. Todos os direitos reservados.
 Este documento constitui uma política de privacidade legalmente vinculante.`;
 
+const TOS_ES = `## 1. Aceptación de los Términos
+
+Al instalar, acceder o utilizar CazaFalsos — Protección de Marca (la "Extensión" o el "Servicio"), usted acepta quedar vinculado por estos Términos de Servicio ("Términos"). Si no está de acuerdo, debe desinstalar la Extensión y cesar todo uso. Estos Términos constituyen un acuerdo legalmente vinculante entre usted y VENTOS ARQUEÁVEIS UNIPESSOAL LDA ("nosotros", "nuestro" o "la Empresa"), una empresa registrada en Portugal.
+
+Nos reservamos el derecho de modificar estos Términos en cualquier momento. Los cambios materiales se comunicarán a través de la interfaz de la Extensión con al menos 30 días de antelación antes de entrar en vigor. El uso continuado después de los cambios constituye aceptación. Si no está de acuerdo con los Términos modificados, debe discontinuar el uso y desinstalar la Extensión.
+
+## 2. Descripción del Servicio
+
+CazaFalsos es una extensión de navegador Chrome que ayuda a los titulares de marcas a detectar publicaciones de productos potencialmente falsificados, infractores e imitaciones en Mercado Libre / Mercado Livre en México, Brasil, Argentina, Chile, Colombia y Perú. El Servicio proporciona:
+
+- Escaneo automatizado de páginas de productos de Mercado Libre para coincidencias de texto, detección de jerga, detección de homoglifos e identificación de anomalías de precios
+- Coincidencia visual mediante hash perceptual (pHash) para identificar imágenes de productos visualmente similares
+- Análisis de probabilidad de falsificación asistido por IA mediante integración Bring Your Own Key (BYOK) con OpenAI, Anthropic y Hugging Face
+- Recopilación de pruebas con hash criptográfico SHA-256 y sellado de tiempo opcional en blockchain de Bitcoin (OpenTimestamps)
+- Generación semi-automatizada de reportes con URLs pre-completadas para las páginas de denuncia de Mercado Libre
+- Lista de seguimiento de vendedores y funcionalidad de escaneo programado
+
+CazaFalsos es una herramienta independiente desarrollada por VENTOS ARQUEÁVEIS UNIPESSOAL LDA. No está afiliada, respaldada ni patrocinada por Mercado Libre S.R.L., MercadoLivre ni ninguna de sus subsidiarias. CazaFalsos es una herramienta de monitoreo y generación de plantillas. No constituye asesoramiento legal, no crea una relación abogado-cliente y no reemplaza la consulta con un abogado calificado en propiedad intelectual.
+
+## 3. Elegibilidad y Cuenta
+
+Para utilizar CazaFalsos, debe tener al menos 18 años de edad (o la mayoría de edad legal en su jurisdicción) y tener la capacidad legal para celebrar contratos vinculantes. Al utilizar el Servicio, usted declara y garantiza que cumple con estos requisitos. Si utiliza el Servicio en nombre de una organización, usted declara que tiene la autoridad para vincular a dicha organización a estos Términos.
+
+## 4. BYOK: Uso de APIs de Terceros
+
+CazaFalsos opera con un modelo Bring Your Own Key (BYOK) para las funciones de análisis con IA. Cuando proporciona claves API para OpenAI, Anthropic o Hugging Face:
+
+- Usted es el único responsable de mantener la seguridad y confidencialidad de sus claves API
+- Usted es responsable de todos los cargos incurridos por el uso de sus claves API
+- Debe cumplir con los términos de servicio y las políticas de uso aceptable de cada proveedor de IA
+- No almacenamos sus claves API en nuestros servidores; se cifran localmente en su dispositivo
+- No somos responsables de las acciones tomadas por los proveedores de IA con respecto a su cuenta o claves
+
+Recomendamos encarecidamente utilizar claves API con límites de uso apropiados y monitorear sus cuentas de proveedores de IA para detectar actividad inesperada.
+
+## 5. Suscripción y Pago
+
+CazaFalsos ofrece un modelo freemium con los siguientes niveles:
+
+| Nivel | Precio | Características Principales | Límites |
+|---|---|---|---|
+| Gratis | $0/mes | Detección de jerga, escaneo básico | 1 marca, 50 escaneos/mes |
+| Inicial | $49/mes | + pHash, exportación CSV | 5 marcas, 500 escaneos/mes |
+| Pro | $99/mes | + BYOK AI, sellado blockchain, CLIP | Ilimitado |
+| Experto | $199/mes | + API CLIP, paquete judicial, soporte prioritario | Ilimitado |
+
+Los términos detallados de suscripción, incluyendo facturación, renovación, cancelación y disposiciones de reembolso, se establecen en los Términos de Suscripción y la Política de Reembolso, que se incorporan aquí por referencia.
+
+## 6. Propiedad Intelectual
+
+### 6.1 Nuestra Propiedad Intelectual
+
+CazaFalsos, incluyendo su código fuente, diseño, algoritmos, documentación, marcas comerciales y todos los materiales relacionados, es propiedad intelectual exclusiva de VENTOS ARQUEÁVEIS UNIPESSOAL LDA. Todos los derechos no otorgados expresamente en este documento quedan reservados. Su uso de la Extensión no transfiere ningún derecho de propiedad.
+
+### 6.2 Su Contenido
+
+Usted conserva todos los derechos de propiedad sobre los nombres de marca, logotipos, palabras clave y otro contenido que introduce en CazaFalsos ("Su Contenido"). Al utilizar el Servicio, nos otorga una licencia limitada, no exclusiva y libre de regalías para procesar Su Contenido únicamente con el fin de proporcionarle el Servicio. También nos otorga una licencia para utilizar datos anonimizados, agregados y desidentificados derivados de Su Contenido con fines de mejora del Servicio, generación de informes estadísticos y marketing, siempre que dichos datos no puedan utilizarse razonablemente para identificarle a usted o a sus marcas.
+
+### 6.3 Restricciones
+
+Usted no podrá: (a) realizar ingeniería inversa, descompilar, desensamblar o intentar de otro modo derivar el código fuente de la Extensión; (b) modificar, adaptar, traducir o crear obras derivadas basadas en la Extensión; (c) alquilar, arrendar, prestar, sublicenciar, distribuir o transferir la Extensión; (d) utilizar la Extensión para desarrollar un producto o servicio competidor; (e) eliminar o alterar cualquier aviso de propiedad, etiqueta o marca; (f) utilizar la Extensión para cualquier propósito que viole la ley aplicable.
+
+## 7. Usos Prohibidos
+
+Usted acepta no utilizar CazaFalsos para:
+
+- Presentar solicitudes de eliminación o denuncias de propiedad intelectual falsas, fraudulentas o abusivas
+- Acosar, acechar o intimidar a vendedores u otros participantes del mercado
+- Recopilar datos personales sobre vendedores para propósitos no relacionados con la protección de marca
+- Eludir los términos de servicio o las medidas de seguridad de Mercado Libre
+- Utilizar las funciones de análisis de IA para generar contenido dañino, ilegal o engañoso
+- Exceder los límites de uso razonables o participar en el abuso automatizado de los sistemas del mercado
+- Violar las políticas de uso aceptable de los proveedores de IA (OpenAI, Anthropic, Hugging Face)
+
+La violación de estas restricciones puede resultar en la suspensión o terminación inmediata de su acceso. Consulte la Política de Uso Aceptable para obtener detalles completos.
+
+## 8. Descargos de Responsabilidad y Limitación de Responsabilidad
+
+### 8.1 No Constituye Asesoramiento Legal
+
+CazaFalsos es una herramienta independiente desarrollada por VENTOS ARQUEÁVEIS UNIPESSOAL LDA. No está afiliada, respaldada ni patrocinada por Mercado Libre S.R.L., MercadoLivre ni ninguna de sus subsidiarias. CazaFalsos es una herramienta de monitoreo y generación de plantillas. No constituye asesoramiento legal y no crea una relación abogado-cliente. Las plantillas de denuncia, las funciones de recopilación de pruebas y los resultados de análisis se proporcionan únicamente como referencia. Para asuntos legales, consulte a un abogado calificado en propiedad intelectual con licencia en la jurisdicción correspondiente.
+
+### 8.2 Sin Garantía de Resultados
+
+No garantizamos que: (a) las solicitudes de eliminación generadas por CazaFalsos serán aceptadas o ejecutadas por Mercado Libre o cualquier otra plataforma; (b) el análisis de IA identificará correctamente todas las falsificaciones o evitará todos los falsos positivos. De conformidad con la Ley de IA de la UE (Reglamento (UE) 2024/1689), los resultados de análisis generados por IA están claramente marcados como tales y no deben utilizarse como base única para presentar denuncias de propiedad intelectual; (c) las pruebas recopiladas a través de la Extensión serán admisibles en cualquier tribunal o procedimiento; (d) el Servicio será ininterrumpido, libre de errores o estará disponible en todo momento.
+
+### 8.3 Descargo de Responsabilidad sobre Pruebas
+
+Las capturas de pantalla, los hashes SHA-256 y las pruebas de OpenTimestamps almacenadas por CazaFalsos son únicamente para su referencia. Su admisibilidad como prueba legal depende de la ley aplicable, las reglas del tribunal y la discreción judicial en cada jurisdicción. No hacemos ninguna declaración con respecto a su validez legal.
+
+### 8.4 Limitación de Responsabilidad
+
+EN LA MÁXIMA MEDIDA PERMITIDA POR LA LEY APLICABLE, INCLUYENDO PERO SIN LIMITARSE A LAS LEYES DE PORTUGAL, BRASIL (CÓDIGO DE DEFESA DO CONSUMIDOR), MÉXICO, ARGENTINA, CHILE, COLOMBIA Y PERÚ:
+
+NUESTRA RESPONSABILIDAD TOTAL POR CUALQUIER RECLAMACIÓN DERIVADA DE O RELACIONADA CON ESTOS TÉRMINOS O EL SERVICIO NO EXCEDERÁ EL MONTO QUE USTED NOS PAGÓ EN EL MES (1) INMEDIATAMENTE ANTERIOR A LA RECLAMACIÓN. PARA LOS USUARIOS DEL NIVEL GRATUITO, NUESTRA RESPONSABILIDAD TOTAL NO EXCEDERÁ CINCUENTA DÓLARES ESTADOUNIDENSES (US$50).
+
+EN NINGÚN CASO SEREMOS RESPONSABLES POR DAÑOS INDIRECTOS, INCIDENTALES, ESPECIALES, CONSECUENTES O PUNITIVOS, INCLUYENDO PERO SIN LIMITARSE A LA PÉRDIDA DE BENEFICIOS, DATOS, OPORTUNIDADES COMERCIALES, FONDO DE COMERCIO O INGRESOS, YA SEA QUE SURJAN DE CONTRATO, AGRAVIO, RESPONSABILIDAD ESTRICTA U OTRO.
+
+Estas limitaciones no se aplican en la medida en que lo prohíban las leyes obligatorias de protección al consumidor en su jurisdicción.
+
+## 9. Indemnización
+
+Usted acepta indemnizar, defender y mantener indemne a VENTOS ARQUEÁVEIS UNIPESSOAL LDA, sus funcionarios, directores, empleados y agentes de cualquier reclamación, responsabilidad, daño, pérdida y gasto (incluyendo honorarios legales razonables) derivados de: (a) su uso del Servicio; (b) su violación de estos Términos; (c) su violación de cualquier derecho de terceros, incluyendo derechos de propiedad intelectual; (d) cualquier solicitud de eliminación falsa o abusiva presentada utilizando pruebas generadas por el Servicio; (e) su uso de claves API BYOK e interacciones con proveedores de IA.
+
+## 10. Resolución de Disputas
+
+### 10.1 Requisito Pre-Litigioso
+
+Antes de iniciar cualquier procedimiento legal, debe enviarnos un aviso escrito describiendo la disputa y su resolución propuesta a legal@cazafalsos.com. Tendremos treinta (30) días para responder e intentar resolver la disputa de manera amistosa. Este requisito pre-litigioso es una condición previa obligatoria para cualquier acción legal.
+
+### 10.2 Ley Aplicable y Jurisdicción
+
+Estos Términos se regirán e interpretarán de acuerdo con las leyes de Portugal, sin tener en cuenta los principios de conflicto de leyes. Cualquier disputa estará sujeta a la jurisdicción exclusiva de los tribunales de Lisboa, Portugal.
+
+Para los consumidores residentes en la Unión Europea, las disposiciones obligatorias de protección al consumidor de su país de residencia se aplicarán adicionalmente. Para los consumidores en Brasil, las disposiciones del Código de Defesa do Consumidor (CDC) se aplicarán en la medida en que proporcionen mayor protección. Para los consumidores en México, las disposiciones de la Ley Federal de Protección al Consumidor se aplicarán cuando sean obligatorias. Los usuarios en México también pueden presentar quejas ante PROFECO (Procuraduría Federal del Consumidor). Para los usuarios en Argentina, nada en estos Términos limita o renuncia a los derechos otorgados por la Ley 24.240 de Defensa del Consumidor y sus modificaciones. Para los usuarios en Chile, Colombia y Perú, nada en estos Términos limita sus derechos bajo las leyes obligatorias de protección al consumidor de su jurisdicción.
+
+## 11. Plazo y Terminación
+
+Estos Términos son efectivos hasta su terminación. Usted puede terminar en cualquier momento desinstalando la Extensión y cesando todo uso. Podemos suspender o terminar su acceso inmediatamente si: (a) usted incumple estos Términos; (b) estamos obligados a hacerlo por ley; (c) discontinuamos el Servicio. Tras la terminación, su licencia para utilizar la Extensión queda inmediatamente revocada. Los datos almacenados localmente permanecen en su dispositivo hasta que los elimine o borre los datos del navegador.
+
+## 12. Disposiciones Generales
+
+**Divisibilidad:** Si alguna disposición de estos Términos se considera inválida o inaplicable, las disposiciones restantes permanecen en pleno vigor y efecto. **Acuerdo Completo:** Estos Términos, junto con la Política de Privacidad, el EULA, los Términos de Suscripción, la Política de Reembolso, la Política de Uso Aceptable y cualquier adenda específica del producto, constituyen el acuerdo completo entre usted y la Empresa. **Renuncia:** Nuestro incumplimiento en hacer valer cualquier derecho o disposición no constituye una renuncia. **Libro de Reclamaciones:** De conformidad con el Decreto-Ley portugués 156/2005, el libro de reclamaciones electrónico (Livro de Reclamações Eletrónico) está disponible en www.livroreclamacoes.pt. **Cesión:** Podemos ceder estos Términos sin su consentimiento; usted no puede cederlos sin nuestro consentimiento previo por escrito. **Fuerza Mayor:** Ninguna de las partes es responsable por retrasos o incumplimientos causados por eventos fuera de su control razonable. **Idioma:** En caso de conflicto entre versiones traducidas, prevalece la versión en inglés.
+
+---
+
+© 2026 VENTOS ARQUEÁVEIS UNIPESSOAL LDA. Todos los derechos reservados.`;
+
+const TOS_PT = `## 1. Aceitação dos Termos
+
+Ao instalar, acessar ou utilizar o CazaFalsos — Protección de Marca (a "Extensão" ou o "Serviço"), você concorda em ficar vinculado a estes Termos de Serviço ("Termos"). Se não concordar, você deve desinstalar a Extensão e cessar todo uso. Estes Termos constituem um acordo legalmente vinculante entre você e VENTOS ARQUEÁVEIS UNIPESSOAL LDA ("nós", "nosso" ou "a Empresa"), uma empresa registrada em Portugal.
+
+Reservamo-nos o direito de modificar estes Termos a qualquer momento. Alterações materiais serão comunicadas através da interface da Extensão com pelo menos 30 dias de antecedência antes de entrarem em vigor. O uso continuado após as alterações constitui aceitação. Se não concordar com os Termos modificados, você deve descontinuar o uso e desinstalar a Extensão.
+
+## 2. Descrição do Serviço
+
+O CazaFalsos é uma extensão de navegador Chrome que ajuda titulares de marcas a detectar anúncios de produtos potencialmente falsificados, infratores e imitações no Mercado Libre / Mercado Livre no México, Brasil, Argentina, Chile, Colômbia e Peru. O Serviço fornece:
+
+- Varredura automatizada de páginas de produtos do Mercado Libre para correspondências de texto, detecção de gírias, detecção de homoglifos e identificação de anomalias de preços
+- Correspondência visual por hash perceptual (pHash) para identificar imagens de produtos visualmente similares
+- Análise de probabilidade de falsificação assistida por IA via integração Bring Your Own Key (BYOK) com OpenAI, Anthropic e Hugging Face
+- Coleta de evidências com hash criptográfico SHA-256 e carimbo de data/hora opcional em blockchain de Bitcoin (OpenTimestamps)
+- Geração semi-automatizada de relatórios com URLs pré-preenchidas para as páginas de denúncia do Mercado Libre
+- Lista de acompanhamento de vendedores e funcionalidade de varredura agendada
+
+O CazaFalsos é uma ferramenta independente desenvolvida pela VENTOS ARQUEÁVEIS UNIPESSOAL LDA. Não é afiliada, endossada ou patrocinada pela Mercado Libre S.R.L., MercadoLivre ou qualquer de suas subsidiárias. O CazaFalsos é uma ferramenta de monitoramento e geração de modelos. Não constitui aconselhamento jurídico, não cria uma relação advogado-cliente e não substitui a consulta com um advogado qualificado em propriedade intelectual.
+
+## 3. Elegibilidade e Conta
+
+Para utilizar o CazaFalsos, você deve ter pelo menos 18 anos de idade (ou a maioridade legal em sua jurisdição) e ter capacidade legal para celebrar contratos vinculantes. Ao utilizar o Serviço, você declara e garante que atende a esses requisitos. Se estiver usando o Serviço em nome de uma organização, você declara que tem autoridade para vincular essa organização a estes Termos.
+
+## 4. BYOK: Uso de APIs de Terceiros
+
+O CazaFalsos opera com um modelo Bring Your Own Key (BYOK) para os recursos de análise com IA. Quando você fornece chaves de API para OpenAI, Anthropic ou Hugging Face:
+
+- Você é o único responsável por manter a segurança e confidencialidade de suas chaves de API
+- Você é responsável por todos os encargos incorridos pelo uso de suas chaves de API
+- Você deve cumprir os termos de serviço e as políticas de uso aceitável de cada provedor de IA
+- Não armazenamos suas chaves de API em nossos servidores; elas são criptografadas localmente em seu dispositivo
+- Não somos responsáveis por quaisquer ações tomadas pelos provedores de IA em relação à sua conta ou chaves
+
+Recomendamos fortemente o uso de chaves de API com limites de uso apropriados e o monitoramento de suas contas de provedores de IA para detectar atividade inesperada.
+
+## 5. Assinatura e Pagamento
+
+O CazaFalsos oferece um modelo freemium com os seguintes níveis:
+
+| Nível | Preço | Características Principais | Limites |
+|---|---|---|---|
+| Grátis | $0/mês | Detecção de gírias, varredura básica | 1 marca, 50 varreduras/mês |
+| Inicial | $49/mês | + pHash, exportação CSV | 5 marcas, 500 varreduras/mês |
+| Pro | $99/mês | + BYOK AI, carimbo blockchain, CLIP | Ilimitado |
+| Experto | $199/mês | + API CLIP, pacote judicial, suporte prioritário | Ilimitado |
+
+Os termos detalhados de assinatura, incluindo faturamento, renovação, cancelamento e disposições de reembolso, são estabelecidos nos Termos de Assinatura e na Política de Reembolso, que são incorporados aqui por referência.
+
+## 6. Propriedade Intelectual
+
+### 6.1 Nossa Propriedade Intelectual
+
+O CazaFalsos, incluindo seu código-fonte, design, algoritmos, documentação, marcas registradas e todos os materiais relacionados, é propriedade intelectual exclusiva da VENTOS ARQUEÁVEIS UNIPESSOAL LDA. Todos os direitos não expressamente concedidos neste documento ficam reservados. Seu uso da Extensão não transfere nenhum direito de propriedade.
+
+### 6.2 Seu Conteúdo
+
+Você retém todos os direitos de propriedade sobre os nomes de marca, logotipos, palavras-chave e outro conteúdo que insere no CazaFalsos ("Seu Conteúdo"). Ao utilizar o Serviço, você nos concede uma licença limitada, não exclusiva e livre de royalties para processar Seu Conteúdo exclusivamente com o fim de fornecer o Serviço a você. Você também nos concede uma licença para utilizar dados anonimizados, agregados e desidentificados derivados de Seu Conteúdo para fins de melhoria do Serviço, geração de relatórios estatísticos e marketing, desde que tais dados não possam ser razoavelmente utilizados para identificá-lo ou às suas marcas.
+
+### 6.3 Restrições
+
+Você não poderá: (a) realizar engenharia reversa, descompilar, desmontar ou tentar de outra forma derivar o código-fonte da Extensão; (b) modificar, adaptar, traduzir ou criar obras derivadas baseadas na Extensão; (c) alugar, arrendar, emprestar, sublicenciar, distribuir ou transferir a Extensão; (d) utilizar a Extensão para desenvolver um produto ou serviço concorrente; (e) remover ou alterar quaisquer avisos de propriedade, rótulos ou marcas; (f) utilizar a Extensão para qualquer finalidade que viole a lei aplicável.
+
+## 7. Usos Proibidos
+
+Você concorda em não utilizar o CazaFalsos para:
+
+- Apresentar solicitações de remoção ou denúncias de propriedade intelectual falsas, fraudulentas ou abusivas
+- Assediar, perseguir ou intimidar vendedores ou outros participantes do marketplace
+- Coletar dados pessoais sobre vendedores para fins não relacionados à proteção de marca
+- Contornar os termos de serviço ou as medidas de segurança do Mercado Libre
+- Utilizar os recursos de análise de IA para gerar conteúdo prejudicial, ilegal ou enganoso
+- Exceder os limites de uso razoáveis ou participar do abuso automatizado dos sistemas do marketplace
+- Violar as políticas de uso aceitável dos provedores de IA (OpenAI, Anthropic, Hugging Face)
+
+A violação dessas restrições pode resultar na suspensão ou encerramento imediato do seu acesso. Consulte a Política de Uso Aceitável para detalhes completos.
+
+## 8. Isenções de Responsabilidade e Limitação de Responsabilidade
+
+### 8.1 Não Constitui Aconselhamento Jurídico
+
+O CazaFalsos é uma ferramenta independente desenvolvida pela VENTOS ARQUEÁVEIS UNIPESSOAL LDA. Não é afiliada, endossada ou patrocinada pela Mercado Libre S.R.L., MercadoLivre ou qualquer de suas subsidiárias. O CazaFalsos é uma ferramenta de monitoramento e geração de modelos. Não constitui aconselhamento jurídico e não cria uma relação advogado-cliente. Os modelos de denúncia, os recursos de coleta de evidências e os resultados de análise são fornecidos apenas como referência. Para questões jurídicas, consulte um advogado qualificado em propriedade intelectual licenciado na jurisdição relevante.
+
+### 8.2 Sem Garantia de Resultados
+
+Não garantimos que: (a) as solicitações de remoção geradas pelo CazaFalsos serão aceitas ou executadas pelo Mercado Libre ou qualquer outra plataforma; (b) a análise de IA identificará corretamente todas as falsificações ou evitará todos os falsos positivos. De acordo com a Lei de IA da UE (Regulamento (UE) 2024/1689), os resultados de análise gerados por IA são claramente marcados como tais e não devem ser utilizados como base única para apresentar denúncias de propriedade intelectual; (c) as evidências coletadas através da Extensão serão admissíveis em qualquer tribunal ou procedimento; (d) o Serviço será ininterrupto, livre de erros ou estará disponível em todos os momentos.
+
+### 8.3 Isenção de Responsabilidade sobre Evidências
+
+As capturas de tela, hashes SHA-256 e provas de OpenTimestamps armazenadas pelo CazaFalsos são apenas para sua referência. Sua admissibilidade como prova legal depende da lei aplicável, das regras do tribunal e da discrição judicial em cada jurisdição. Não fazemos nenhuma declaração quanto à sua validade legal.
+
+### 8.4 Limitação de Responsabilidade
+
+NA MÁXIMA EXTENSÃO PERMITIDA PELA LEI APLICÁVEL, INCLUINDO, MAS NÃO SE LIMITANDO ÀS LEIS DE PORTUGAL, BRASIL (CÓDIGO DE DEFESA DO CONSUMIDOR), MÉXICO, ARGENTINA, CHILE, COLÔMBIA E PERU:
+
+NOSSA RESPONSABILIDADE TOTAL POR QUAISQUER RECLAMAÇÕES DECORRENTES DE OU RELACIONADAS A ESTES TERMOS OU AO SERVIÇO NÃO EXCEDERÁ O VALOR QUE VOCÊ NOS PAGOU NO MÊS (1) IMEDIATAMENTE ANTERIOR À RECLAMAÇÃO. PARA USUÁRIOS DO NÍVEL GRATUITO, NOSSA RESPONSABILIDADE TOTAL NÃO EXCEDERÁ CINQUENTA DÓLARES AMERICANOS (US$50).
+
+EM NENHUMA HIPÓTESE SEREMOS RESPONSÁVEIS POR DANOS INDIRETOS, INCIDENTAIS, ESPECIAIS, CONSEQUENCIAIS OU PUNITIVOS, INCLUINDO, MAS NÃO SE LIMITANDO À PERDA DE LUCROS, DADOS, OPORTUNIDADES COMERCIAIS, FUNDO DE COMÉRCIO OU RECEITAS, SEJA DECORRENTE DE CONTRATO, ATO ILÍCITO, RESPONSABILIDADE OBJETIVA OU OUTRO.
+
+Essas limitações não se aplicam na medida em que sejam proibidas por leis obrigatórias de proteção ao consumidor em sua jurisdição.
+
+## 9. Indenização
+
+Você concorda em indenizar, defender e manter indene a VENTOS ARQUEÁVEIS UNIPESSOAL LDA, seus funcionários, diretores, empregados e agentes de quaisquer reclamações, responsabilidades, danos, perdas e despesas (incluindo honorários advocatícios razoáveis) decorrentes de: (a) seu uso do Serviço; (b) sua violação destes Termos; (c) sua violação de quaisquer direitos de terceiros, incluindo direitos de propriedade intelectual; (d) quaisquer solicitações de remoção falsas ou abusivas apresentadas usando evidências geradas pelo Serviço; (e) seu uso de chaves de API BYOK e interações com provedores de IA.
+
+## 10. Resolução de Disputas
+
+### 10.1 Requisito Pré-Contencioso
+
+Antes de iniciar qualquer procedimento legal, você deve nos enviar um aviso por escrito descrevendo a disputa e sua resolução proposta para legal@cazafalsos.com. Teremos trinta (30) dias para responder e tentar resolver a disputa amigavelmente. Este requisito pré-contencioso é uma condição prévia obrigatória para qualquer ação legal.
+
+### 10.2 Lei Aplicável e Jurisdição
+
+Estes Termos serão regidos e interpretados de acordo com as leis de Portugal, sem considerar os princípios de conflito de leis. Quaisquer disputas estarão sujeitas à jurisdição exclusiva dos tribunais de Lisboa, Portugal.
+
+Para os consumidores residentes na União Europeia, as disposições obrigatórias de proteção ao consumidor de seu país de residência serão aplicadas adicionalmente. Para os consumidores no Brasil, as disposições do Código de Defesa do Consumidor (CDC) serão aplicadas na medida em que proporcionem maior proteção. Para os consumidores no México, as disposições da Ley Federal de Protección al Consumidor serão aplicadas quando obrigatórias. Os usuários no México também podem apresentar queixas à PROFECO (Procuraduría Federal del Consumidor). Para os usuários na Argentina, nada nestes Termos limita ou renuncia a quaisquer direitos concedidos pela Ley 24.240 de Defensa del Consumidor e suas alterações. Para os usuários no Chile, Colômbia e Peru, nada nestes Termos limita seus direitos sob as leis obrigatórias de proteção ao consumidor de sua jurisdição.
+
+## 11. Prazo e Rescisão
+
+Estes Termos são efetivos até sua rescisão. Você pode rescindir a qualquer momento desinstalando a Extensão e cessando todo uso. Podemos suspender ou encerrar seu acesso imediatamente se: (a) você violar estes Termos; (b) formos obrigados a fazê-lo por lei; (c) descontinuarmos o Serviço. Após a rescisão, sua licença para utilizar a Extensão é imediatamente revogada. Os dados armazenados localmente permanecem em seu dispositivo até que você os exclua ou limpe os dados do navegador.
+
+## 12. Disposições Gerais
+
+**Divisibilidade:** Se qualquer disposição destes Termos for considerada inválida ou inexequível, as disposições restantes permanecem em pleno vigor e efeito. **Acordo Integral:** Estes Termos, juntamente com a Política de Privacidade, o EULA, os Termos de Assinatura, a Política de Reembolso, a Política de Uso Aceitável e quaisquer adendos específicos do produto, constituem o acordo integral entre você e a Empresa. **Renúncia:** Nossa falha em exercer qualquer direito ou disposição não constitui uma renúncia. **Livro de Reclamações:** Em conformidade com o Decreto-Lei português 156/2005, o livro de reclamações eletrônico (Livro de Reclamações Eletrónico) está disponível em www.livroreclamacoes.pt. **Cessão:** Podemos ceder estes Termos sem seu consentimento; você não pode cedê-los sem nosso consentimento prévio por escrito. **Força Maior:** Nenhuma das partes é responsável por atrasos ou falhas causados por eventos além do controle razoável. **Idioma:** Em caso de conflito entre versões traduzidas, a versão em inglês prevalece.
+
+---
+
+© 2026 VENTOS ARQUEÁVEIS UNIPESSOAL LDA. Todos os direitos reservados.`;
+
 const LEGAL_DOCS: Record<string, LegalDoc> = {
   privacidad: {
     title: { es: "Política de Privacidad", pt: "Política de Privacidade" },
@@ -447,20 +703,27 @@ const LEGAL_DOCS: Record<string, LegalDoc> = {
       pt: "Política de privacidade do CazaFalsos. Cumprimos RGPD, LGPD, LFPDPPP e leis de proteção de dados da Argentina, Chile, Colômbia e Peru.",
     },
   },
-  privacidade: { // PT-friendly slug alias
+  privacidade: {
     title: { es: "Política de Privacidad", pt: "Política de Privacidade" },
     updated: { es: "Última actualización: 10 de marzo de 2026", pt: "Última atualização: 10 de março de 2026" },
     body: { es: PRIVACY_ES, pt: PRIVACY_PT },
     seoTitle: { es: "Política de Privacidad — CazaFalsos", pt: "Política de Privacidade — CazaFalsos" },
-    seoDesc: {
-      es: "Política de privacidad de CazaFalsos.",
-      pt: "Política de privacidade do CazaFalsos.",
-    },
+    seoDesc: { es: "Política de privacidad de CazaFalsos.", pt: "Política de privacidade do CazaFalsos." },
   },
   terminos: {
     title: { es: "Términos de Servicio", pt: "Termos de Serviço" },
     updated: { es: "Última actualización: 10 de marzo de 2026", pt: "Última atualização: 10 de março de 2026" },
-    body: { es: "Próximamente.", pt: "Em breve." },
+    body: { es: TOS_ES, pt: TOS_PT },
+    seoTitle: { es: "Términos de Servicio — CazaFalsos", pt: "Termos de Serviço — CazaFalsos" },
+    seoDesc: {
+      es: "Términos de servicio de CazaFalsos. Condiciones de uso, suscripción, propiedad intelectual y resolución de disputas.",
+      pt: "Termos de serviço do CazaFalsos. Condições de uso, assinatura, propriedade intelectual e resolução de disputas.",
+    },
+  },
+  termos: {
+    title: { es: "Términos de Servicio", pt: "Termos de Serviço" },
+    updated: { es: "Última actualización: 10 de marzo de 2026", pt: "Última atualização: 10 de março de 2026" },
+    body: { es: TOS_ES, pt: TOS_PT },
     seoTitle: { es: "Términos de Servicio — CazaFalsos", pt: "Termos de Serviço — CazaFalsos" },
     seoDesc: { es: "Términos de servicio de CazaFalsos.", pt: "Termos de serviço do CazaFalsos." },
   },
