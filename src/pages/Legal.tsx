@@ -692,6 +692,82 @@ Estes Termos são efetivos até sua rescisão. Você pode rescindir a qualquer m
 
 © 2026 VENTOS ARQUEÁVEIS UNIPESSOAL LDA. Todos os direitos reservados.`;
 
+const COOKIES_ES = `## 1. Acerca de Esta Política
+
+Esta Política de Cookies explica el uso de cookies y tecnologías similares en conexión con CazaFalsos — Protección de Marca y cualquier sitio web asociado.
+
+## 2. Cookies en la Extensión del Navegador
+
+La extensión de navegador CazaFalsos NO utiliza cookies, píxeles de seguimiento, balizas web ni ninguna forma de tecnología de seguimiento externo. La Extensión almacena datos exclusivamente utilizando chrome.storage.local e IndexedDB, que son APIs de almacenamiento del navegador que no son cookies y no le rastrean a través de sitios web.
+
+Ningún servicio de análisis de terceros (Google Analytics, Mixpanel, Amplitude o similares) está integrado en la Extensión. No hay redes publicitarias ni seguimiento de redes sociales presente.
+
+## 3. Cookies en Nuestro Sitio Web
+
+Si operamos un sitio web (por ejemplo, cazafalsos.com), se pueden utilizar las siguientes cookies:
+
+### 3.1 Cookies Estrictamente Necesarias
+
+Estas cookies son esenciales para que el sitio web funcione y no se pueden desactivar. Incluyen cookies de sesión para envíos de formularios y tokens de seguridad.
+
+### 3.2 Cookies de Análisis (si se implementan)
+
+Si implementamos análisis en nuestro sitio web, utilizaremos herramientas de análisis centradas en la privacidad y las divulgaremos claramente aquí. A la fecha de entrada en vigor, no se utilizan cookies de análisis.
+
+### 3.3 Cookies de Terceros
+
+Cuando accede al flujo de pago/suscripción, Stripe puede establecer cookies para la prevención del fraude y el procesamiento de pagos. Estas se rigen por la Política de Cookies de Stripe.
+
+## 4. Gestión de Cookies
+
+Puede gestionar las cookies a través de la configuración de su navegador. La mayoría de los navegadores le permiten rechazar cookies, eliminar cookies existentes y establecer preferencias para sitios web específicos. Tenga en cuenta que desactivar las cookies estrictamente necesarias puede afectar la funcionalidad del sitio web. La funcionalidad de la Extensión no se ve afectada por la configuración de cookies.
+
+## 5. Actualizaciones
+
+Podemos actualizar esta Política de Cookies periódicamente. Los cambios se publicarán en nuestro sitio web y/o se comunicarán a través de la Extensión.
+
+---
+
+© 2026 VENTOS ARQUEÁVEIS UNIPESSOAL LDA. Todos los derechos reservados. Livro de Reclamações Eletrónico: www.livroreclamacoes.pt`;
+
+const COOKIES_PT = `## 1. Sobre Esta Política
+
+Esta Política de Cookies explica o uso de cookies e tecnologias similares em conexão com o CazaFalsos — Protección de Marca e quaisquer sites associados.
+
+## 2. Cookies na Extensão do Navegador
+
+A extensão de navegador CazaFalsos NÃO utiliza cookies, pixels de rastreamento, web beacons ou qualquer forma de tecnologia de rastreamento externo. A Extensão armazena dados exclusivamente usando chrome.storage.local e IndexedDB, que são APIs de armazenamento do navegador que não são cookies e não rastreiam você através de sites.
+
+Nenhum serviço de análise de terceiros (Google Analytics, Mixpanel, Amplitude ou similares) está integrado na Extensão. Nenhuma rede de publicidade ou rastreamento de redes sociais está presente.
+
+## 3. Cookies em Nosso Site
+
+Se operarmos um site (por exemplo, cazafalsos.com), os seguintes cookies podem ser utilizados:
+
+### 3.1 Cookies Estritamente Necessários
+
+Esses cookies são essenciais para o funcionamento do site e não podem ser desativados. Incluem cookies de sessão para envio de formulários e tokens de segurança.
+
+### 3.2 Cookies de Análise (se implementados)
+
+Se implementarmos análise em nosso site, utilizaremos ferramentas de análise focadas em privacidade e as divulgaremos claramente aqui. Na data de vigência, nenhum cookie de análise é utilizado.
+
+### 3.3 Cookies de Terceiros
+
+Quando você acessa o fluxo de pagamento/assinatura, o Stripe pode definir cookies para prevenção de fraude e processamento de pagamentos. Estes são regidos pela Política de Cookies do Stripe.
+
+## 4. Gerenciamento de Cookies
+
+Você pode gerenciar os cookies através das configurações do seu navegador. A maioria dos navegadores permite que você recuse cookies, exclua cookies existentes e defina preferências para sites específicos. Observe que desativar cookies estritamente necessários pode afetar a funcionalidade do site. A funcionalidade da Extensão não é afetada pelas configurações de cookies.
+
+## 5. Atualizações
+
+Podemos atualizar esta Política de Cookies periodicamente. As alterações serão publicadas em nosso site e/ou comunicadas através da Extensão.
+
+---
+
+© 2026 VENTOS ARQUEÁVEIS UNIPESSOAL LDA. Todos os direitos reservados. Livro de Reclamações Eletrónico: www.livroreclamacoes.pt`;
+
 const LEGAL_DOCS: Record<string, LegalDoc> = {
   privacidad: {
     title: { es: "Política de Privacidad", pt: "Política de Privacidade" },
@@ -730,9 +806,12 @@ const LEGAL_DOCS: Record<string, LegalDoc> = {
   cookies: {
     title: { es: "Política de Cookies", pt: "Política de Cookies" },
     updated: { es: "Última actualización: 10 de marzo de 2026", pt: "Última atualização: 10 de março de 2026" },
-    body: { es: "Próximamente.", pt: "Em breve." },
+    body: { es: COOKIES_ES, pt: COOKIES_PT },
     seoTitle: { es: "Política de Cookies — CazaFalsos", pt: "Política de Cookies — CazaFalsos" },
-    seoDesc: { es: "Política de cookies de CazaFalsos.", pt: "Política de cookies do CazaFalsos." },
+    seoDesc: {
+      es: "Política de cookies de CazaFalsos. La extensión no usa cookies. Información sobre cookies del sitio web.",
+      pt: "Política de cookies do CazaFalsos. A extensão não usa cookies. Informações sobre cookies do site.",
+    },
   },
   reembolsos: {
     title: { es: "Política de Reembolsos", pt: "Política de Reembolsos" },
