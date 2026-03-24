@@ -31,6 +31,7 @@ const ContactPage = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title={seoTitle} description={seoDesc} />
       <Header />
       <main>
         {/* Hero */}
