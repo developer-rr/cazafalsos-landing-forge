@@ -209,12 +209,14 @@ export const t: Translations = {
   "cookie.accept": { es: "Aceptar", pt: "Aceitar" },
 
   // Exit intent
-  "exit.title": { es: "¿Quieres ser el primero?", pt: "Quer ser o primeiro?" },
+  "exit.title": { es: "20% de descuento en tu primer mes", pt: "20% de desconto no primeiro mês" },
   "exit.desc": {
-    es: "Únete a la lista de espera y obtén 3 meses de Plan Pro gratis.",
-    pt: "Entre na lista de espera e ganhe 3 meses de Plano Pro grátis.",
+    es: "Únete hoy y usa el código PRIMERA20 para obtener tu descuento.",
+    pt: "Junte-se hoje e use o código PRIMERA20 para obter seu desconto.",
   },
   "exit.email": { es: "Tu email", pt: "Seu email" },
+  "exit.cta": { es: "Obtener mi descuento", pt: "Obter meu desconto" },
+  "exit.code": { es: "Código: PRIMERA20", pt: "Código: PRIMERA20" },
   "exit.close": { es: "No, gracias", pt: "Não, obrigado" },
 
   // Newsletter

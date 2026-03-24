@@ -2,6 +2,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { useLang } from "@/lib/i18n";
 import { useState, useEffect } from "react";
+import { SEOHead } from "@/components/SEOHead";
 import { toast } from "sonner";
 import { motion } from "framer-motion";
 import { Mail, Clock, Building2 } from "lucide-react";
@@ -12,9 +13,12 @@ const ContactPage = () => {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
   const [consent, setConsent] = useState(false);
 
-  useEffect(() => {
-    document.title = lang === "es" ? "Contacto — CazaFalsos" : "Contato — CazaFalsos";
-  }, [lang]);
+  const seoTitle = lang === "es"
+    ? "Contacto — CazaFalsos | Protección de Marca en Mercado Libre"
+    : "Contato — CazaFalsos | Proteção de Marca no Mercado Livre";
+  const seoDesc = lang === "es"
+    ? "¿Tienes preguntas sobre CazaFalsos? Contáctanos. Respondemos en menos de 24 horas hábiles."
+    : "Tem perguntas sobre o CazaFalsos? Fale conosco. Respondemos em menos de 24 horas úteis.";
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -27,6 +31,7 @@ const ContactPage = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title={seoTitle} description={seoDesc} />
       <Header />
       <main>
         {/* Hero */}

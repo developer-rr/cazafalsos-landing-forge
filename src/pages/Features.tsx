@@ -4,6 +4,7 @@ import { InstallButton } from "@/components/InstallButton";
 import { useLang } from "@/lib/i18n";
 import { motion } from "framer-motion";
 import { Search, Globe, ShieldCheck, FileText, TrendingDown, ScanEye, Clock, FolderOpen, FileCheck2, Building2 } from "lucide-react";
+import { SEOHead } from "@/components/SEOHead";
 
 const DETAILED_FEATURES = [
   {
@@ -82,8 +83,16 @@ const BENEFITS = [
 const FeaturesPage = () => {
   const { tr, lang } = useLang();
 
+  const seoTitle = lang === "es"
+    ? "Funciones de CazaFalsos — Monitoreo, Pruebas y Denuncias para Mercado Libre"
+    : "Funções do CazaFalsos — Monitoramento, Provas e Denúncias para Mercado Livre";
+  const seoDesc = lang === "es"
+    ? "Búsqueda inteligente, cobertura en 6 países, pruebas SHA-256, denuncias preparadas y más. Protege tu marca en Mercado Libre."
+    : "Busca inteligente, cobertura em 6 países, provas SHA-256, denúncias preparadas e mais. Proteja sua marca no Mercado Livre.";
+
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title={seoTitle} description={seoDesc} />
       <Header />
       <main>
         {/* Hero */}

@@ -5,6 +5,7 @@ import { useLang } from "@/lib/i18n";
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import { useState, useEffect } from "react";
+import { SEOHead } from "@/components/SEOHead";
 
 type Lang = "es" | "pt";
 
@@ -126,11 +127,12 @@ const FAQPage = () => {
   const { tr, lang } = useLang();
   const [openItems, setOpenItems] = useState<Record<string, boolean>>({});
 
-  useEffect(() => {
-    document.title = lang === "es"
-      ? "Preguntas Frecuentes — CazaFalsos"
-      : "Perguntas Frequentes — CazaFalsos";
-  }, [lang]);
+  const seoTitle = lang === "es"
+    ? "Preguntas Frecuentes — CazaFalsos | Protección de Marca"
+    : "Perguntas Frequentes — CazaFalsos | Proteção de Marca";
+  const seoDesc = lang === "es"
+    ? "Resolvemos tus dudas sobre CazaFalsos: producto, seguridad, precios, uso y soporte para proteger tu marca en Mercado Libre."
+    : "Respondemos suas dúvidas sobre CazaFalsos: produto, segurança, preços, uso e suporte para proteger sua marca no Mercado Livre.";
 
   const toggleItem = (key: string) => {
     setOpenItems((prev) => ({ ...prev, [key]: !prev[key] }));
@@ -138,6 +140,7 @@ const FAQPage = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <SEOHead title={seoTitle} description={seoDesc} />
       <Header />
       <main>
         {/* Hero */}
