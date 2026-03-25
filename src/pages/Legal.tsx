@@ -16,7 +16,7 @@ interface LegalDoc {
 
 const PRIVACY_ES = `**Controlador de Datos:** VENTOS ARQUEÁVEIS UNIPESSOAL LDA
 **Dirección Registrada:** Lisboa, Portugal
-**Email de Contacto:** privacy@cazafalsos.com
+**Email de Contacto:** support@cazafalsos.com
 **Legislación Aplicable:** Portugal (RGPD), LGPD (Brasil), LFPDPPP (México), Ley 25.326 (Argentina), LPPD (Chile), Ley 1581 (Colombia), Ley 29733 (Perú)
 **Autoridad de Supervisión:** CNPD (Portugal), ANPD (Brasil), Secretaría de ACGG (México)
 
@@ -177,7 +177,7 @@ Bajo la LFPDPPP (2025), usted tiene los derechos de Acceso, Rectificación, Canc
 
 ### 9.5 Cómo Ejercer Sus Derechos
 
-Dado que todos los datos se almacenan localmente en su dispositivo, la mayoría de los derechos se pueden ejercer directamente a través de la interfaz de la Extensión: use la función "Eliminar mis datos" para la supresión, exporte evidencia en CSV/JSON para la portabilidad, y modifique los datos de marca/configuración para la rectificación. Para solicitudes formales, contacte a privacy@cazafalsos.com. Responderemos dentro del plazo requerido por su ley aplicable (30 días RGPD, 15 días LGPD, 20 días LFPDPPP).
+Dado que todos los datos se almacenan localmente en su dispositivo, la mayoría de los derechos se pueden ejercer directamente a través de la interfaz de la Extensión: use la función "Eliminar mis datos" para la supresión, exporte evidencia en CSV/JSON para la portabilidad, y modifique los datos de marca/configuración para la rectificación. Para solicitudes formales, contacte a support@cazafalsos.com. Responderemos dentro del plazo requerido por su ley aplicable (30 días RGPD, 15 días LGPD, 20 días LFPDPPP).
 
 ## 10. Seguridad de los Datos
 
@@ -196,7 +196,7 @@ La extensión de navegador CazaFalsos no utiliza cookies, píxeles de seguimient
 
 ## 12. Privacidad de Menores
 
-CazaFalsos es una herramienta empresarial destinada a ser utilizada por titulares de marcas, profesionales de propiedad intelectual y gestores de comercio electrónico. El Servicio no está dirigido a personas menores de 18 años (o 16 años para usuarios de la UE/EEE, o 13 años para usuarios brasileños según la Lei 58/2019 Art. 16(1)). No recopilamos conscientemente datos personales de menores. Si cree que un menor nos ha proporcionado datos, contacte a privacy@cazafalsos.com y tomaremos medidas inmediatas para eliminar dichos datos.
+CazaFalsos es una herramienta empresarial destinada a ser utilizada por titulares de marcas, profesionales de propiedad intelectual y gestores de comercio electrónico. El Servicio no está dirigido a personas menores de 18 años (o 16 años para usuarios de la UE/EEE, o 13 años para usuarios brasileños según la Lei 58/2019 Art. 16(1)). No recopilamos conscientemente datos personales de menores. Si cree que un menor nos ha proporcionado datos, contacte a support@cazafalsos.com y tomaremos medidas inmediatas para eliminar dichos datos.
 
 ## 13. Cambios a Esta Política
 
@@ -206,7 +206,7 @@ Podemos actualizar esta Política de Privacidad periódicamente. Los cambios mat
 
 Para cualquier pregunta, inquietud o solicitud relacionada con esta Política de Privacidad o sus datos personales:
 
-- **Email:** privacy@cazafalsos.com
+- **Email:** support@cazafalsos.com
 - **Controlador de Datos:** VENTOS ARQUEÁVEIS UNIPESSOAL LDA, Lisboa, Portugal
 - **Registrado en Portugal.** De conformidad con la ley portuguesa, el libro de reclamaciones electrónico (Livro de Reclamações Eletrónico) está disponible en www.livroreclamacoes.pt
 
@@ -227,7 +227,7 @@ Este documento constituye una política de privacidad legalmente vinculante.`;
 
 const PRIVACY_PT = `**Controlador de Dados:** VENTOS ARQUEÁVEIS UNIPESSOAL LDA
 **Endereço Registrado:** Lisboa, Portugal
-**E-mail de Contato:** privacy@cazafalsos.com
+**E-mail de Contato:** support@cazafalsos.com
 **Legislação Aplicável:** Portugal (RGPD), LGPD (Brasil), LFPDPPP (México), Ley 25.326 (Argentina), LPPD (Chile), Ley 1581 (Colômbia), Ley 29733 (Peru)
 **Autoridade de Supervisão:** CNPD (Portugal), ANPD (Brasil), Secretaria de ACGG (México)
 
@@ -388,7 +388,7 @@ Sob a LFPDPPP (2025), você tem os direitos de Acesso, Retificação, Cancelamen
 
 ### 9.5 Como Exercer Seus Direitos
 
-Como todos os dados são armazenados localmente em seu dispositivo, a maioria dos direitos pode ser exercida diretamente através da interface da Extensão: use a função "Eliminar meus dados" para exclusão, exporte evidências em CSV/JSON para portabilidade, e modifique dados de marca/configuração para retificação. Para solicitações formais, entre em contato com privacy@cazafalsos.com. Responderemos dentro do prazo exigido pela sua lei aplicável (30 dias RGPD, 15 dias LGPD, 20 dias LFPDPPP).
+Como todos os dados são armazenados localmente em seu dispositivo, a maioria dos direitos pode ser exercida diretamente através da interface da Extensão: use a função "Eliminar meus dados" para exclusão, exporte evidências em CSV/JSON para portabilidade, e modifique dados de marca/configuração para retificação. Para solicitações formais, entre em contato com support@cazafalsos.com. Responderemos dentro do prazo exigido pela sua lei aplicável (30 dias RGPD, 15 dias LGPD, 20 dias LFPDPPP).
 
 ## 10. Segurança dos Dados
 
@@ -407,7 +407,7 @@ A extensão de navegador CazaFalsos não utiliza cookies, pixels de rastreamento
 
 ## 12. Privacidade de Menores
 
-O CazaFalsos é uma ferramenta empresarial destinada ao uso por titulares de marcas, profissionais de propriedade intelectual e gestores de comércio eletrônico. O Serviço não é direcionado a indivíduos menores de 18 anos (ou 16 anos para usuários da UE/EEE, ou 13 anos para usuários brasileiros conforme a Lei 58/2019 Art. 16(1)). Não coletamos conscientemente dados pessoais de menores. Se você acredita que um menor nos forneceu dados, entre em contato com privacy@cazafalsos.com, e tomaremos medidas imediatas para excluir tais dados.
+O CazaFalsos é uma ferramenta empresarial destinada ao uso por titulares de marcas, profissionais de propriedade intelectual e gestores de comércio eletrônico. O Serviço não é direcionado a indivíduos menores de 18 anos (ou 16 anos para usuários da UE/EEE, ou 13 anos para usuários brasileiros conforme a Lei 58/2019 Art. 16(1)). Não coletamos conscientemente dados pessoais de menores. Se você acredita que um menor nos forneceu dados, entre em contato com support@cazafalsos.com, e tomaremos medidas imediatas para excluir tais dados.
 
 ## 13. Alterações a Esta Política
 
@@ -417,7 +417,7 @@ Podemos atualizar esta Política de Privacidade periodicamente. Alterações mat
 
 Para qualquer pergunta, preocupação ou solicitação relacionada a esta Política de Privacidade ou seus dados pessoais:
 
-- **E-mail:** privacy@cazafalsos.com
+- **E-mail:** support@cazafalsos.com
 - **Controlador de Dados:** VENTOS ARQUEÁVEIS UNIPESSOAL LDA, Lisboa, Portugal
 - **Registrado em Portugal.** Em conformidade com a lei portuguesa, o livro de reclamações eletrônico (Livro de Reclamações Eletrónico) está disponível em www.livroreclamacoes.pt
 
