@@ -13,6 +13,7 @@ import Blog from "./pages/Blog";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
 import Legal from "./pages/Legal";
+import LegalIndex from "./pages/LegalIndex";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -33,6 +34,7 @@ const App = () => (
             <Route path="/blog" element={<Blog />} />
             <Route path="/faq" element={<FAQ />} />
             <Route path="/contacto" element={<Contact />} />
+            <Route path="/legal" element={<LegalIndex />} />
             <Route path="/legal/:slug" element={<Legal />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
