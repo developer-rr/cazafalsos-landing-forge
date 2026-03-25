@@ -3,4 +3,4 @@ export const CHROME_STORE_URL: string | null = null;
 
 // Company info
 export const COMPANY_NAME = "VENTOS ARQUEÁVEIS UNIPESSOAL LDA";
-export const COMPANY_EMAIL = "vitvetportugal@gmail.com";
+export const COMPANY_EMAIL = "support@cazafalsos.com";

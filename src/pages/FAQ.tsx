@@ -113,7 +113,7 @@ const FAQ_DATA: FaqCategory[] = [
     items: [
       {
         q: { es: "¿Cómo contacto con soporte?", pt: "Como entro em contato com suporte?" },
-        a: { es: "Puedes escribirnos a vitvetportugal@gmail.com o usar el formulario de contacto en nuestra web. Respondemos en menos de 24 horas hábiles.", pt: "Pode nos escrever em vitvetportugal@gmail.com ou usar o formulário de contato em nosso site. Respondemos em menos de 24 horas úteis." },
+        a: { es: "Puedes escribirnos a support@cazafalsos.com o usar el formulario de contacto en nuestra web. Respondemos en menos de 24 horas hábiles.", pt: "Pode nos escrever em support@cazafalsos.com ou usar o formulário de contato em nosso site. Respondemos em menos de 24 horas úteis." },
       },
       {
         q: { es: "¿En cuánto tiempo responden?", pt: "Em quanto tempo respondem?" },
