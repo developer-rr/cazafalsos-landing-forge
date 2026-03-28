@@ -20,13 +20,32 @@ const ContactPage = () => {
     ? "¿Tienes preguntas sobre CazaFalsos? Contáctanos. Respondemos en menos de 24 horas hábiles."
     : "Tem perguntas sobre o CazaFalsos? Fale conosco. Respondemos em menos de 24 horas úteis.";
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const [loading, setLoading] = useState(false);
+
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    toast.success(tr("cta.coming"), {
-      description: lang === "es" ? "Formulario disponible próximamente" : "Formulário disponível em breve",
-    });
-    setForm({ name: "", email: "", message: "" });
-    setConsent(false);
+    if (!consent) return;
+    setLoading(true);
+    try {
+      const res = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams({
+          "form-name": "contact",
+          nombre: form.name,
+          email: form.email,
+          mensaje: form.message,
+        }).toString(),
+      });
+      if (!res.ok) throw new Error();
+      toast.success(lang === "es" ? "¡Mensaje enviado con éxito!" : "Mensagem enviada com sucesso!");
+      setForm({ name: "", email: "", message: "" });
+      setConsent(false);
+    } catch {
+      toast.error(lang === "es" ? "Error al enviar. Inténtalo de nuevo." : "Erro ao enviar. Tente novamente.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -173,9 +192,10 @@ const ContactPage = () => {
                     </label>
                     <button
                       type="submit"
-                      className="w-full px-6 py-3 text-sm font-semibold bg-primary text-primary-foreground rounded-[var(--radius-inner)] transition-all hover:scale-[1.02] active:scale-95 hover:shadow-[var(--shadow-glow)]"
+                      disabled={loading}
+                      className="w-full px-6 py-3 text-sm font-semibold bg-primary text-primary-foreground rounded-[var(--radius-inner)] transition-all hover:scale-[1.02] active:scale-95 hover:shadow-[var(--shadow-glow)] disabled:opacity-60 disabled:cursor-not-allowed"
                     >
-                      {tr("cta.send")}
+                      {loading ? "Enviando..." : tr("cta.send")}
                     </button>
                   </form>
                 </div>
