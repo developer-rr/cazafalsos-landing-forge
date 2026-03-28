@@ -17,11 +17,28 @@ export function FinalCTASection() {
   const [consent, setConsent] = useState(false);
   const [submitted, setSubmitted] = useState(false);
 
-  const handleNewsletter = (e: React.FormEvent) => {
+  const [loading, setLoading] = useState(false);
+
+  const handleNewsletter = async (e: React.FormEvent) => {
     e.preventDefault();
-    setSubmitted(true);
-    setEmail("");
-    setConsent(false);
+    if (!consent) return;
+    setLoading(true);
+    try {
+      const res = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams({ "form-name": "newsletter", email }).toString(),
+      });
+      if (!res.ok) throw new Error();
+      setSubmitted(true);
+      setEmail("");
+      setConsent(false);
+      toast.success(lang === "es" ? "¡Te has suscrito correctamente!" : "Inscrição realizada com sucesso!");
+    } catch {
+      toast.error(lang === "es" ? "Error al enviar. Inténtalo de nuevo." : "Erro ao enviar. Tente novamente.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -93,10 +110,11 @@ export function FinalCTASection() {
                     />
                     <button
                       type="submit"
+                      disabled={loading}
                       className="px-5 py-3 text-sm font-semibold bg-primary-foreground text-primary rounded-inner
-                        transition-all hover:scale-[1.02] active:scale-95"
+                        transition-all hover:scale-[1.02] active:scale-95 disabled:opacity-60 disabled:cursor-not-allowed"
                     >
-                      {tr("cta.join")}
+                      {loading ? "Enviando..." : tr("cta.join")}
                     </button>
                   </div>
                   <label className="flex items-start gap-2 text-xs text-primary-foreground/60 cursor-pointer text-left">
