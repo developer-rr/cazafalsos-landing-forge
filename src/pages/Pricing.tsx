@@ -318,7 +318,7 @@ const PricingPage = () => {
               </p>
               <InstallButton size="lg" className="bg-accent hover:shadow-[0_0_20px_rgba(255,109,0,0.4)]" />
               <p className="mt-4 text-xs text-primary-foreground/50 italic">
-                {lang === "es" ? "Próximamente disponible" : "Disponível em breve"}
+                {lang === "es" ? "Disponible en Chrome Web Store" : "Disponível na Chrome Web Store"}
               </p>
             </motion.div>
           </div>

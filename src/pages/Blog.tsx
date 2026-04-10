@@ -16,7 +16,7 @@ const BlogPage = () => {
       : "Blog — CazaFalsos | Proteção de Marca no Mercado Livre";
     document.querySelector('meta[name="description"]')?.setAttribute("content",
       lang === "es"
-        ? "Artículos y novedades sobre protección de marca en Mercado Libre. Próximamente."
+        ? "Artículos y novedades sobre protección de marca en Mercado Libre."
         : "Artigos e novidades sobre proteção de marca no Mercado Livre. Em breve.");
   }, [lang]);
 
