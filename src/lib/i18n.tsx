@@ -17,8 +17,8 @@ export const t: Translations = {
   
   // CTA
   "cta.install": { es: "Instalar Gratis", pt: "Instalar Grátis" },
-  "cta.coming": { es: "Próximamente", pt: "Em breve" },
-  "cta.coming.note": { es: "Próximamente en Chrome Web Store", pt: "Em breve na Chrome Web Store" },
+  "cta.coming": { es: "Disponible", pt: "Disponível" },
+  "cta.coming.note": { es: "Disponible en Chrome Web Store", pt: "Disponível na Chrome Web Store" },
   "cta.join": { es: "Unirme a la lista", pt: "Entrar na lista" },
   "cta.send": { es: "Enviar consulta", pt: "Enviar consulta" },
 
